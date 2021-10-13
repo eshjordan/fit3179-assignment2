@@ -42,7 +42,7 @@
             "from": {
                 "data": {
                     "name": "uberdata",
-                    "url": "data/manhattan-data-apr14.csv",
+                    "url": "https://eshjordan.github.io/fit3179-assignment2/data/manhattan-data-apr14.csv",
                     "format": {
                         "type": "csv"
                     }
