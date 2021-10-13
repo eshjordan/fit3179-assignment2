@@ -65,18 +65,46 @@ def add_neighborhood_to_uber_csv_data(uberDataPath, geojsonPath, outputPath):
                         break
                 u_pickup += 1
 
+def filter_manhattan(uberDataPath, lookupPath, outputPath):
+    with open(uberDataPath, newline='', encoding='utf-8') as in_file:
+        uberReader = csv.reader(in_file)
+
+        with open(lookupPath, newline='', encoding='utf-8') as lookup_file:
+            manhattan_neighborhoods = {}
+            neighborhoodLookup = csv.reader(lookup_file)
+            for row in neighborhoodLookup:
+                if row[1] == "Manhattan":
+                    manhattan_neighborhoods[row[0]] = [0 for _ in range(24)]
+
+            for row_data in uberReader:
+                if row_data[5] in manhattan_neighborhoods:
+                    parsed_date = int(row_data[1].split(" ")[-1].split(":")[0])
+                    manhattan_neighborhoods[row_data[5]][parsed_date] += 1
+
+            with open(outputPath, 'w', newline='', encoding='utf-8') as out_file:
+                csvWriter = csv.writer(out_file)
+                fieldNames = ["u_neighborhood"]
+                fieldNames.extend([f'u_hr_{hour}' for hour in range(24)])
+                csvWriter.writerow(fieldNames)
+                for neighborhood in manhattan_neighborhoods:
+                    csvWriter.writerow([neighborhood] + manhattan_neighborhoods[neighborhood])
+
+                
+
 
 # Driver Code
  
 # Decide the two file paths according to your
 # computer system
-uberDataPath = r'./uber-tlc-foil-response/uber-trip-data/uber-raw-data-aug14.csv'
+uberDataPath = r'./uber-tlc-foil-response/uber-trip-data/uber-raw-data-sep14.csv'
 geojsonPath = r'./data/nyc-neighbourhoods.geojson'
-outputPath = r'./data/uber-raw-data-aug14.csv'
+outputPath = r'./data/uber-raw-data-sep14.csv'
  
 # Call the make_json function
 # add_neighborhood_to_uber_data(uberDataPath, geojsonPath, outputPath)
-add_neighborhood_to_uber_csv_data(uberDataPath, geojsonPath, outputPath)
+# add_neighborhood_to_uber_csv_data(uberDataPath, geojsonPath, outputPath)
+
+filter_manhattan('./data/uber-raw-data-apr14.csv', './data/neighborhood-lookup.csv', './data/manhattan-data-apr14.csv')
 
 # min_lon: -74.7733
 # max_lon: -72.0666

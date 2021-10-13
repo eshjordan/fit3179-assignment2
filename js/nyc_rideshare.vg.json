@@ -1,164 +1,154 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": "container",
-  "height": "container",
-  "title": "Distribution of Uber pickups in New York City, between 01-30 April 2014",
-  "params": [
-    {
-      "name": "groupBy",
-      "value": "l_borough",
-      "bind": {
-        "name": "Group By: ",
-        "input": "select",
-        "options": [
-          "l_borough",
-          "l_neighborhood"
-        ],
-        "labels": [
-          "Borough",
-          "Neighborhood"
-        ]
-      }
-    },
-    {
-      "name": "maxVal",
-      "expr": "groupBy == 'l_borough' ? 450000 : 90000"
-    },
-    {
-      "name": "minPickups",
-      "expr": "groupBy == 'l_borough' ? 100 : 1"
-    },
-    {
-      "name": "selectedPickupLimit",
-      "value": 100,
-      "bind": {
-        "name": "Max Pickup Filter %: ",
-        "input": "range",
-        "min": 1,
-        "max": 100,
-        "step": 1
-      }
-    },
-    {
-      "name": "maxPickups",
-      "expr": "(selectedPickupLimit)/100 * maxVal"
-    }
-  ],
-  "projection": {
-    "type": "conicEqualArea",
-    "parallels": [
-      41,
-      40
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": "container",
+    "title": "Distribution of Uber pickups in New York City, between 01-30 April 2014",
+    "params": [{
+            "name": "groupBy",
+            "value": "l_borough",
+            "bind": {
+                "name": "Group By: ",
+                "input": "select",
+                "options": [
+                    "l_borough",
+                    "l_neighborhood"
+                ],
+                "labels": [
+                    "Borough",
+                    "Neighborhood"
+                ]
+            }
+        },
+        {
+            "name": "maxVal",
+            "expr": "groupBy == 'l_borough' ? 450000 : 90000"
+        },
+        {
+            "name": "minPickups",
+            "expr": "groupBy == 'l_borough' ? 100 : 1"
+        },
+        {
+            "name": "selectedPickupLimit",
+            "value": 100,
+            "bind": {
+                "name": "Max Pickup Filter %: ",
+                "input": "range",
+                "min": 1,
+                "max": 100,
+                "step": 1
+            }
+        },
+        {
+            "name": "maxPickups",
+            "expr": "(selectedPickupLimit)/100 * maxVal"
+        }
     ],
-    "rotate": [
-      74.1,
-      0,
-      0
-    ]
-  },
-  "data": {
-    "name": "neighborhood-topo",
-    "url": "data/nyc-neighbourhoods.topojson",
-    "format": {
-      "type": "topojson",
-      "feature": "nyc-neighbourhoods"
-    }
-  },
-  "transform": [
-    {
-      "lookup": "properties.neighborhood",
-      "from": {
-        "data": {
-          "name": "uberdata",
-          "url": "data/neighborhood-lookup.csv",
-          "format": {
-            "type": "csv"
-          }
-        },
-        "key": "l_neighborhood",
-        "fields": [
-          "l_pickups",
-          "l_neighborhood",
-          "l_boroughCode",
-          "l_borough",
-          "l_neighbourhoodId"
+    "projection": {
+        "type": "conicEqualArea",
+        "parallels": [
+            41,
+            40
+        ],
+        "rotate": [
+            74.1,
+            0,
+            0
         ]
-      }
     },
-    {
-      "joinaggregate": [
-        {
-          "op": "sum",
-          "field": "l_pickups",
-          "as": "num_pickups_by_borough"
+    "data": {
+        "name": "neighborhood-topo",
+        "url": "https://eshjordan.github.io/fit3179-assignment2/data/nyc-neighbourhoods.topojson",
+        "format": {
+            "type": "topojson",
+            "feature": "nyc-neighbourhoods"
         }
-      ],
-      "groupby": [
-        "l_borough"
-      ]
     },
-    {
-      "joinaggregate": [
-        {
-          "op": "sum",
-          "field": "l_pickups",
-          "as": "num_pickups_by_neighborhood"
-        }
-      ],
-      "groupby": [
-        "l_neighborhood"
-      ]
-    },
-    {
-      "calculate": "groupBy == 'l_neighborhood' ? datum.num_pickups_by_neighborhood : datum.num_pickups_by_borough",
-      "as": "num_pickups"
-    },
-    {
-      "filter": "datum.l_neighborhood != null"
-    }
-  ],
-  "layer": [
-    {
-      "mark": "geoshape",
-      "encoding": {
-        "color": {
-          "field": "num_pickups",
-          "type": "quantitative",
-          "legend": {
-            "title": "Number of pickups"
-          },
-          "scale": {
-            "domain": [
-              {
-                "expr": "minPickups"
-              },
-              {
-                "expr": "maxPickups"
-              }
-            ],
-            "scheme": "reds",
-            "type": "log"
-          }
+    "transform": [{
+            "lookup": "properties.neighborhood",
+            "from": {
+                "data": {
+                    "name": "uberdata",
+                    "url": "https://eshjordan.github.io/fit3179-assignment2/data/neighborhood-lookup.csv",
+                    "format": {
+                        "type": "csv"
+                    }
+                },
+                "key": "l_neighborhood",
+                "fields": [
+                    "l_pickups",
+                    "l_neighborhood",
+                    "l_boroughCode",
+                    "l_borough",
+                    "l_neighbourhoodId"
+                ]
+            }
         },
-        "tooltip": [
-          {
-            "title": "Neighborhood",
-            "field": "properties.neighborhood"
-          },
-          {
-            "title": "Borough",
-            "field": "properties.borough"
-          },
-          {
-            "title": "Number of pickups in neighborhood",
-            "field": "num_pickups_by_neighborhood"
-          },
-          {
-            "title": "Number of pickups in borough",
-            "field": "num_pickups_by_borough"
-          }
-        ]
-      }
-    }
-  ]
+        {
+            "joinaggregate": [{
+                "op": "sum",
+                "field": "l_pickups",
+                "as": "num_pickups_by_borough"
+            }],
+            "groupby": [
+                "l_borough"
+            ]
+        },
+        {
+            "joinaggregate": [{
+                "op": "sum",
+                "field": "l_pickups",
+                "as": "num_pickups_by_neighborhood"
+            }],
+            "groupby": [
+                "l_neighborhood"
+            ]
+        },
+        {
+            "calculate": "groupBy == 'l_neighborhood' ? datum.num_pickups_by_neighborhood : datum.num_pickups_by_borough",
+            "as": "num_pickups"
+        },
+        {
+            "filter": "datum.l_neighborhood != null"
+        }
+    ],
+    "layer": [{
+        "mark": "geoshape",
+        "encoding": {
+            "color": {
+                "field": "num_pickups",
+                "type": "quantitative",
+                "legend": {
+                    "title": "Number of pickups"
+                },
+                "scale": {
+                    "domain": [{
+                            "expr": "minPickups"
+                        },
+                        {
+                            "expr": "maxPickups"
+                        }
+                    ],
+                    "scheme": "reds",
+                    "type": "log"
+                }
+            },
+            "tooltip": [{
+                    "title": "Neighborhood",
+                    "field": "properties.neighborhood"
+                },
+                {
+                    "title": "Borough",
+                    "field": "properties.borough"
+                },
+                {
+                    "title": "Number of pickups in neighborhood",
+                    "field": "num_pickups_by_neighborhood"
+                },
+                {
+                    "title": "Number of pickups in borough",
+                    "field": "num_pickups_by_borough"
+                }
+            ]
+        }
+    }]
 }

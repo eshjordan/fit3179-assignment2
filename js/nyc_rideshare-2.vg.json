@@ -1,164 +1,118 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": "container",
-  "height": "container",
-  "title": "Distribution of Uber pickups in New York City, between 01-30 April 2014",
-  "params": [
-    {
-      "name": "groupBy",
-      "value": "l_borough",
-      "bind": {
-        "name": "Group By: ",
-        "input": "select",
-        "options": [
-          "l_borough",
-          "l_neighborhood"
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": "container",
+    "title": "Distribution of Uber pickups in Manhattan throughout the day, between 01-30 April 2014",
+
+    "params": [{
+        "name": "time_of_day",
+        "value": 9,
+        "bind": {
+            "input": "range",
+            "min": 0,
+            "max": 23,
+            "step": 1
+        }
+    }],
+
+    "projection": {
+        "type": "conicEqualArea",
+        "parallels": [
+            41,
+            40
         ],
-        "labels": [
-          "Borough",
-          "Neighborhood"
+        "rotate": [
+            74.1,
+            0,
+            0
         ]
-      }
     },
-    {
-      "name": "maxVal",
-      "expr": "groupBy == 'l_borough' ? 450000 : 90000"
+
+    "data": {
+        "name": "neighborhood-topo",
+        "url": "https://eshjordan.github.io/fit3179-assignment2/data/nyc-neighbourhoods.topojson",
+        "format": {
+            "type": "topojson",
+            "feature": "nyc-neighbourhoods"
+        }
     },
-    {
-      "name": "minPickups",
-      "expr": "groupBy == 'l_borough' ? 100 : 1"
-    },
-    {
-      "name": "selectedPickupLimit",
-      "value": 100,
-      "bind": {
-        "name": "Max Pickup Filter %: ",
-        "input": "range",
-        "min": 1,
-        "max": 100,
-        "step": 1
-      }
-    },
-    {
-      "name": "maxPickups",
-      "expr": "(selectedPickupLimit)/100 * maxVal"
-    }
-  ],
-  "projection": {
-    "type": "conicEqualArea",
-    "parallels": [
-      41,
-      40
+
+    "transform": [{
+            "lookup": "properties.neighborhood",
+            "from": {
+                "data": {
+                    "name": "uberdata",
+                    "url": "data/manhattan-data-apr14.csv",
+                    "format": {
+                        "type": "csv"
+                    }
+                },
+                "key": "u_neighborhood",
+                "fields": [
+                    "u_neighborhood",
+                    "u_hr_0",
+                    "u_hr_1",
+                    "u_hr_2",
+                    "u_hr_3",
+                    "u_hr_4",
+                    "u_hr_5",
+                    "u_hr_6",
+                    "u_hr_7",
+                    "u_hr_8",
+                    "u_hr_9",
+                    "u_hr_10",
+                    "u_hr_11",
+                    "u_hr_12",
+                    "u_hr_13",
+                    "u_hr_14",
+                    "u_hr_15",
+                    "u_hr_16",
+                    "u_hr_17",
+                    "u_hr_18",
+                    "u_hr_19",
+                    "u_hr_20",
+                    "u_hr_21",
+                    "u_hr_22",
+                    "u_hr_23"
+                ]
+            }
+        },
+
+        {
+            "filter": "datum.properties.borough == 'Manhattan'"
+        },
+
+        {
+            "calculate": "datum['u_hr_' + time_of_day]",
+            "as": "num_pickups"
+        }
     ],
-    "rotate": [
-      74.1,
-      0,
-      0
-    ]
-  },
-  "data": {
-    "name": "neighborhood-topo",
-    "url": "data/nyc-neighbourhoods.topojson",
-    "format": {
-      "type": "topojson",
-      "feature": "nyc-neighbourhoods"
-    }
-  },
-  "transform": [
-    {
-      "lookup": "properties.neighborhood",
-      "from": {
-        "data": {
-          "name": "uberdata",
-          "url": "data/neighborhood-lookup.csv",
-          "format": {
-            "type": "csv"
-          }
-        },
-        "key": "l_neighborhood",
-        "fields": [
-          "l_pickups",
-          "l_neighborhood",
-          "l_boroughCode",
-          "l_borough",
-          "l_neighbourhoodId"
-        ]
-      }
-    },
-    {
-      "joinaggregate": [
-        {
-          "op": "sum",
-          "field": "l_pickups",
-          "as": "num_pickups_by_borough"
+    "layer": [{
+        "mark": "geoshape",
+
+        "encoding": {
+            "color": {
+                "field": "num_pickups",
+                "type": "quantitative",
+                "legend": {
+                    "title": "Number of pickups"
+                },
+                "scale": {
+                    "domain": ["1", "3000"],
+                    "scheme": "reds",
+                    "type": "pow"
+                }
+            },
+
+            "tooltip": [{
+                    "title": "Neighborhood",
+                    "field": "properties.neighborhood"
+                },
+                {
+                    "title": "Number of pickups in neighborhood",
+                    "field": "num_pickups"
+                }
+            ]
         }
-      ],
-      "groupby": [
-        "l_borough"
-      ]
-    },
-    {
-      "joinaggregate": [
-        {
-          "op": "sum",
-          "field": "l_pickups",
-          "as": "num_pickups_by_neighborhood"
-        }
-      ],
-      "groupby": [
-        "l_neighborhood"
-      ]
-    },
-    {
-      "calculate": "groupBy == 'l_neighborhood' ? datum.num_pickups_by_neighborhood : datum.num_pickups_by_borough",
-      "as": "num_pickups"
-    },
-    {
-      "filter": "datum.l_neighborhood != null"
-    }
-  ],
-  "layer": [
-    {
-      "mark": "geoshape",
-      "encoding": {
-        "color": {
-          "field": "num_pickups",
-          "type": "quantitative",
-          "legend": {
-            "title": "Number of pickups"
-          },
-          "scale": {
-            "domain": [
-              {
-                "expr": "minPickups"
-              },
-              {
-                "expr": "maxPickups"
-              }
-            ],
-            "scheme": "reds",
-            "type": "log"
-          }
-        },
-        "tooltip": [
-          {
-            "title": "Neighborhood",
-            "field": "properties.neighborhood"
-          },
-          {
-            "title": "Borough",
-            "field": "properties.borough"
-          },
-          {
-            "title": "Number of pickups in neighborhood",
-            "field": "num_pickups_by_neighborhood"
-          },
-          {
-            "title": "Number of pickups in borough",
-            "field": "num_pickups_by_borough"
-          }
-        ]
-      }
-    }
-  ]
+    }]
 }
