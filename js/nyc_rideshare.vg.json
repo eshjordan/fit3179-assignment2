@@ -22,30 +22,13 @@
         },
 
         {
-            "name": "maxVal",
+            "name": "maxPickups",
             "expr": "groupBy == 'l_borough' ? 255 : 3000"
         },
 
         {
             "name": "minPickups",
             "expr": "groupBy == 'l_borough' ? 0 : 0"
-        },
-
-        {
-            "name": "selectedPickupLimit",
-            "value": 100,
-            "bind": {
-                "name": "Max Pickup Filter %: ",
-                "input": "range",
-                "min": 1,
-                "max": 100,
-                "step": 1
-            }
-        },
-
-        {
-            "name": "maxPickups",
-            "expr": "(selectedPickupLimit)/100 * maxVal"
         }
     ],
 
@@ -173,7 +156,7 @@
                             "expr": "maxPickups"
                         }
                     ],
-                    "scheme": "reds",
+                    "scheme": { "expr": "groupBy == 'l_neighborhood' ? 'reds' : 'blues'" },
                     "type": "symlog"
                 }
             },
@@ -187,12 +170,14 @@
                     "field": "properties.borough"
                 },
                 {
-                    "title": "Number of pickups in neighborhood",
-                    "field": "norm_pickups_neighborhood"
+                    "title": "Pickups per 1000 people (borough)",
+                    "field": "norm_pickups_borough",
+                    "format": ".2f"
                 },
                 {
-                    "title": "Number of pickups in borough",
-                    "field": "norm_pickups_borough"
+                    "title": "Pickups per 1000 people (neighborhood)",
+                    "field": "norm_pickups_neighborhood",
+                    "format": ".2f"
                 }
             ]
         }

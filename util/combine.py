@@ -73,8 +73,7 @@ def filter_manhattan(uberDataPath, lookupPath, outputPath):
             manhattan_neighborhoods = {}
             neighborhoodLookup = csv.reader(lookup_file)
             for row in neighborhoodLookup:
-                if row[1] == "Manhattan":
-                    manhattan_neighborhoods[row[0]] = [0 for _ in range(24)]
+                manhattan_neighborhoods[row[0]] = [0 for _ in range(24)]
 
             for row_data in uberReader:
                 if row_data[5] in manhattan_neighborhoods:
@@ -104,7 +103,7 @@ outputPath = r'./data/uber-raw-data-sep14-new.csv'
 # add_neighborhood_to_uber_data(uberDataPath, geojsonPath, outputPath)
 # add_neighborhood_to_uber_csv_data(uberDataPath, geojsonPath, outputPath)
 
-filter_manhattan('./data/uber-raw-data-apr14.csv', './data/neighborhood-lookup.csv', './data/manhattan-data-apr14-new.csv')
+filter_manhattan('./data/uber-raw-data-apr14.csv', './data/neighborhood-lookup.csv', './data/all-neighborhoods-data-apr14-new.csv')
 
 # min_lon: -74.7733
 # max_lon: -72.0666
