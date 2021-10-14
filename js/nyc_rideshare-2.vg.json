@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": "container",
     "height": "container",
-    "title": "Distribution of Uber pickups in Manhattan throughout the day, between 01-30 April 2014",
+    "title": "Distribution of Uber pickups per thousand people in Manhattan throughout the day, between 01-30 April 2014",
 
     "params": [{
         "name": "time_of_day",
@@ -83,10 +83,28 @@
         },
 
         {
-            "calculate": "datum['u_hr_' + time_of_day]",
+            "lookup": "properties.neighborhood",
+            "from": {
+                "data": {
+                    "name": "lookupdata",
+                    "url": "https://eshjordan.github.io/fit3179-assignment2/data/neighborhood-lookup.csv",
+                    "format": {
+                        "type": "csv"
+                    }
+                },
+                "key": "l_neighborhood",
+                "fields": [
+                    "l_pop_2010"
+                ]
+            }
+        },
+
+        {
+            "calculate": "datum['u_hr_' + time_of_day] / (datum.l_pop_2010/1000)",
             "as": "num_pickups"
         }
     ],
+
     "layer": [{
         "mark": "geoshape",
 
@@ -94,13 +112,15 @@
             "color": {
                 "field": "num_pickups",
                 "type": "quantitative",
+
                 "legend": {
                     "title": "Number of pickups"
                 },
+
                 "scale": {
-                    "domain": ["1", "3000"],
+                    "domain": ["0", "400"],
                     "scheme": "reds",
-                    "type": "pow"
+                    "type": "symlog"
                 }
             },
 
