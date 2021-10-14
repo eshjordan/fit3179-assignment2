@@ -1,4 +1,4 @@
-Borough,Year,FIPS County Code,NTA Code,NTA Name,Population
+p_borough,p_year,p_fips_county_code,p_nta code,p_nta_name,p_population
 Bronx,2000,005,BX01,Claremont-Bathgate,28149
 Bronx,2000,005,BX03,Eastchester-Edenwald-Baychester,35422
 Bronx,2000,005,BX05,Bedford Park-Fordham North,55329

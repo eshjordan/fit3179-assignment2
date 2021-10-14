@@ -98,13 +98,13 @@ def filter_manhattan(uberDataPath, lookupPath, outputPath):
 # computer system
 uberDataPath = r'./uber-tlc-foil-response/uber-trip-data/uber-raw-data-sep14.csv'
 geojsonPath = r'./data/nyc-neighbourhoods.geojson'
-outputPath = r'./data/uber-raw-data-sep14.csv'
+outputPath = r'./data/uber-raw-data-sep14-new.csv'
  
 # Call the make_json function
 # add_neighborhood_to_uber_data(uberDataPath, geojsonPath, outputPath)
 # add_neighborhood_to_uber_csv_data(uberDataPath, geojsonPath, outputPath)
 
-filter_manhattan('./data/uber-raw-data-apr14.csv', './data/neighborhood-lookup.csv', './data/manhattan-data-apr14.csv')
+filter_manhattan('./data/uber-raw-data-apr14.csv', './data/neighborhood-lookup.csv', './data/manhattan-data-apr14-new.csv')
 
 # min_lon: -74.7733
 # max_lon: -72.0666

@@ -1,262 +1,262 @@
-l_neighborhood,l_borough,l_boroughId,l_neighborhoodId,l_pickups,l_nta_name,l_nta_id,l_nta_area,l_nta_county_fips
-Allerton,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Allerton,53,Bronxdale,BX07,15194897.2638,005
-Alley Pond Park,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Alley_Pond_Park,1,park-cemetery-etc-Queens,QN99,311684971.61,081
-Arden Heights,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Arden_Heights,1,Arden Heights,SI48,50407530.0454,085
-Arlington,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Arlington,0,Mariner's Harbor-Arlington-Port Ivory-Graniteville,SI12,89057577.4918,085
-Arrochar,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Arrochar,2,Old Town-Dongan Hills-South Beach,SI36,67010738.0679,085
-Arverne,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Arverne,1,Hammels-Arverne-Edgemere,QN12,61904116.8013,081
-Astoria,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Astoria,1472,Astoria,QN70,39334264.4843,081
-Bath Beach,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Bath_Beach,55,Bath Beach,BK27,20538896.9711,047
-Battery Park City,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Battery_Park_City,5717,Battery Park City-Lower Manhattan,MN25,19056256.3105,061
-Bay Ridge,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Bay_Ridge,338,Bay Ridge,BK31,67120372.6974,047
-Bay Terrace,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Bay_Terrace,28,Ft. Totten-Bay Terrace-Clearview,QN47,46297599.7752,081
-"Bay Terrace, Staten Island",Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Bay_Terrace_Staten_Island,1,Great Kills,SI54,89602052.3389,085
-Baychester,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Baychester,15,Eastchester-Edenwald-Baychester,BX03,40256749.6627,005
-Bayside,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Bayside,114,Bayside-Bayside Hills,QN46,80797536.0623,081
-Bayswater,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Bayswater,2,park-cemetery-etc-Queens,QN99,311684971.61,081
-Bedford-Stuyvesant,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Bedford_Stuyvesant,4621,Stuyvesant Heights,BK35,31407005.0688,047
-Belle Harbor,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Belle_Harbor,0,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,QN10,99449481.6554,081
-Bellerose,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Bellerose,23,Bellerose,QN43,55194891.771,081
-Belmont,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Belmont,143,Belmont,BX06,13557354.9494,005
-Bensonhurst,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Bensonhurst,103,Bensonhurst West,BK28,46666292.7867,047
-Bergen Beach,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Bergen_Beach,34,Georgetown-Marine Park-Bergen Beach-Mill Basin,BK45,69328952.8314,047
-Bloomfield,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Bloomfield,0,New Springville-Bloomfield-Travis,SI05,327762258.869,085
-Boerum Hill,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Boerum_Hill,1592,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,BK38,28462565.7562,047
-Borough Park,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Borough_Park,241,Borough Park,BK88,54005019.2286,047
-Breezy Point,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Breezy_Point,2,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,QN10,99449481.6554,081
-Briarwood,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Briarwood,41,Briarwood-Jamaica Hills,QN35,29408863.1561,081
-Brighton Beach,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Brighton_Beach,104,West Brighton,BK23,8745781.98734,047
-Broad Channel,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Broad_Channel,1,park-cemetery-etc-Queens,QN99,311684971.61,081
-Bronx Park,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Bronx_Park,86,park-cemetery-etc-Bronx,BX99,220896061.306,005
-Bronxdale,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Bronxdale,26,Pelham Parkway,BX49,23031630.7911,005
-Brooklyn Heights,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Brooklyn_Heights,2585,Brooklyn Heights-Cobble Hill,BK09,9984670.16344,047
-Brownsville,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Brownsville,210,Brownsville,BK81,32730861.1091,047
-Bull's Head,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Bull_s_Head,8,New Springville-Bloomfield-Travis,SI05,327762258.869,085
-Bushwick,Brooklyn,4,http://nyc.pediacities.com/Resource/Neighborhood/Bushwick,2467,Bushwick South,BK78,40192390.2146,047
-Cambria Heights,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Cambria_Heights,23,Cambria Heights,QN33,33076798.044,081
-Canarsie,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Canarsie,195,Canarsie,BK50,82015446.67,047
-Carroll Gardens,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Carroll_Gardens,1615,Carroll Gardens-Columbia Street-Red Hook,BK33,44600270.3423,047
-Castle Hill,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Castle_Hill,7,Soundview-Castle Hill-Clason Point-Harding Park,BX09,51958970.2168,005
-Castleton Corners,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Castleton_Corners,5,Westerleigh,SI07,63293572.2794,085
-Central Park,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Central_Park,3802,park-cemetery-etc-Manhattan,MN99,91540542.1537,061
-Charleston,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Charleston,0,Charleston-Richmond Valley-Tottenville,SI11,145851675.668,085
-Chelsea,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Chelsea,46142,Hudson Yards-Chelsea-Flatiron-Union Square,MN13,37029727.2874,061
-"Chelsea, Staten Island",Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Chelsea_Staten_Island,2,New Springville-Bloomfield-Travis,SI05,327762258.869,085
-Chinatown,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Chinatown,3439,Chinatown,MN27,14501953.104,061
-City Island,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/City_Island,3,Pelham Bay-Country Club-City Island,BX10,40248130.5227,005
-Civic Center,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Civic_Center,1206,Chinatown,MN27,14501953.104,061
-Claremont Village,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Claremont_Village,40,park-cemetery-etc-Bronx,BX99,220896061.306,005
-Clason Point,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Clason_Point,19,Soundview-Castle Hill-Clason Point-Harding Park,BX09,51958970.2168,005
-Clifton,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Clifton,3,Stapleton-Rosebank,SI37,46523826.2222,085
-Clinton Hill,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Clinton_Hill,2317,Clinton Hill,BK69,20528139.3756,047
-Co-op City,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Co_op_City,28,Co-op City,BX13,39875760.074,005
-Cobble Hill,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Cobble_Hill,947,Carroll Gardens-Columbia Street-Red Hook,BK33,44600270.3423,047
-College Point,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/College_Point,87,College Point,QN23,50626759.4129,081
-Columbia St,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Columbia_St,401,Carroll Gardens-Columbia Street-Red Hook,BK33,44600270.3423,047
-Concord,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Concord,7,Grasmere-Arrochar-Ft. Wadsworth,SI14,40946383.452,085
-Concourse,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Concourse,437,West Concourse,BX63,19369542.2241,005
-Concourse Village,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Concourse_Village,88,East Concourse-Concourse Village,BX14,18232622.2923,005
-Coney Island,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Coney_Island,23,Seagate-Coney Island,BK21,38725865.5956,047
-Corona,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Corona,77,Corona,QN25,20080371.6309,081
-Country Club,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Country_Club,8,Pelham Bay-Country Club-City Island,BX10,40248130.5227,005
-Crotona Park,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Crotona_Park,2,park-cemetery-etc-Bronx,BX99,220896061.306,005
-Crown Heights,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Crown_Heights,2850,Crown Heights North,BK61,51619074.4581,047
-Cunningham Park,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Cunningham_Park,0,park-cemetery-etc-Queens,QN99,311684971.61,081
-Cypress Hills,Brooklyn,4,http://nyc.pediacities.com/Resource/Neighborhood/Cypress_Hills,116,Cypress Hills-City Line,BK83,27609992.4426,047
-DUMBO,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/DUMBO,2237,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,BK38,28462565.7562,047
-Ditmars Steinway,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Ditmars_Steinway,705,Steinway,QN72,57767020.8232,081
-Dongan Hills,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Dongan_Hills,2,Old Town-Dongan Hills-South Beach,SI36,67010738.0679,085
-Douglaston,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Douglaston,23,Douglas Manor-Douglaston-Little Neck,QN45,68567676.7487,081
-Downtown Brooklyn,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Downtown_Brooklyn,2248,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,BK38,28462565.7562,047
-Dyker Heights,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Dyker_Heights,123,Dyker Heights,BK30,29908238.2333,047
-East Elmhurst,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/East_Elmhurst,582,Jackson Heights,QN28,47854896.0691,081
-East Harlem,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/East_Harlem,2126,East Harlem North,MN34,24495419.8871,061
-East Morrisania,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/East_Morrisania,42,Crotona Park East,BX75,16316218.0219,005
-East New York,Brooklyn,4,http://nyc.pediacities.com/Resource/Neighborhood/East_New_York,331,East New York,BK82,117170154.658,047
-East Village,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/East_Village,20474,East Village,MN22,10895491.3668,061
-Eastchester,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Eastchester,15,Co-op City,BX13,39875760.074,005
-Edenwald,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Edenwald,20,Eastchester-Edenwald-Baychester,BX03,40256749.6627,005
-Edgemere,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Edgemere,4,Hammels-Arverne-Edgemere,QN12,61904116.8013,081
-Elmhurst,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Elmhurst,225,Elmhurst,QN29,32671507.7066,081
-Eltingville,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Eltingville,3,Great Kills,SI54,89602052.3389,085
-Emerson Hill,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Emerson_Hill,4,New Springville-Bloomfield-Travis,SI05,327762258.869,085
-Far Rockaway,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Far_Rockaway,21,Far Rockaway-Bayswater,QN15,54348630.0105,081
-Ferry Point Park,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Ferry_Point_Park,0,Schuylerville-Throgs Neck-Edgewater Park,BX52,88570461.2986,005
-Fieldston,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Fieldston,332,North Riverdale-Fieldston-Riverdale,BX22,49046259.9597,005
-Financial District,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Financial_District,14550,Battery Park City-Lower Manhattan,MN25,19056256.3105,061
-Flatbush,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Flatbush,748,Flatbush,BK42,45254811.4745,047
-Flatiron District,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Flatiron_District,10153,Hudson Yards-Chelsea-Flatiron-Union Square,MN13,37029727.2874,061
-Flatlands,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Flatlands,191,Flatlands,BK58,54341763.5546,047
-Floral Park,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Floral_Park,31,Glen Oaks-Floral Park-New Hyde Park,QN44,45665592.1293,081
-Floyd Bennett Field,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Floyd_Bennett_Field,6,park-cemetery-etc-Brooklyn,BK99,228790857.479,047
-Flushing,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Flushing,507,East Flushing,QN52,29454379.9663,081
-Flushing Meadows Corona Park,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Flushing_Meadows_Corona_Park,261,park-cemetery-etc-Queens,QN99,311684971.61,081
-Fordham,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Fordham,158,Bedford Park-Fordham North,BX05,14998883.2414,005
-Forest Hills,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Forest_Hills,452,Forest Hills,QN17,57828447.5721,081
-Forest Park,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Forest_Park,10,park-cemetery-etc-Queens,QN99,311684971.61,081
-Fort Greene,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Fort_Greene,2609,Fort Greene,BK68,16482896.1773,047
-Fort Hamilton,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Fort_Hamilton,285,Bay Ridge,BK31,67120372.6974,047
-Fort Wadsworth,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Fort_Wadsworth,0,Grasmere-Arrochar-Ft. Wadsworth,SI14,40946383.452,085
-Fresh Meadows,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Fresh_Meadows,52,Fresh Meadows-Utopia,QN41,27774853.949,081
-Freshkills Park,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Freshkills_Park,0,New Springville-Bloomfield-Travis,SI05,327762258.869,085
-Gerritsen Beach,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Gerritsen_Beach,6,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,BK17,63343337.7196,047
-Glen Oaks,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Glen_Oaks,11,Glen Oaks-Floral Park-New Hyde Park,QN44,45665592.1293,081
-Glendale,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Glendale,87,Glendale,QN19,29974392.8939,081
-Governors Island,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Governors_Island,0,park-cemetery-etc-Manhattan,MN99,91540542.1537,061
-Gowanus,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Gowanus,1655,Park Slope-Gowanus,BK37,42518324.0484,047
-Gramercy,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Gramercy,9098,Gramercy,MN21,7531454.90511,061
-Graniteville,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Graniteville,9,Mariner's Harbor-Arlington-Port Ivory-Graniteville,SI12,89057577.4918,085
-Grant City,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Grant_City,0,New Dorp-Midland Beach,SI45,55434866.7628,085
-Gravesend,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Gravesend,317,Bensonhurst East,BK29,35776108.8534,047
-Great Kills,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Great_Kills,3,Great Kills,SI54,89602052.3389,085
-Great Kills Park,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Great_Kills_Park,0,park-cemetery-etc-Staten Island,SI99,24000714.9451,085
-Green-Wood Cemetery,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Green_Wood_Cemetery,13,park-cemetery-etc-Brooklyn,BK99,228790857.479,047
-Greenpoint,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Greenpoint,3949,Greenpoint,BK76,35337582.9629,047
-Greenwich Village,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Greenwich_Village,15622,West Village,MN23,25000526.0321,061
-Grymes Hill,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Grymes_Hill,7,Grymes Hill-Clifton-Fox Hills,SI08,37748488.6117,085
-Harlem,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Harlem,3109,Central Harlem North-Polo Grounds,MN03,25403425.2536,061
-Hart Island,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Hart_Island,0,Pelham Bay-Country Club-City Island,BX10,40248130.5227,005
-Hell's Kitchen,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Hell_s_Kitchen,19673,Clinton,MN15,18381380.2263,061
-Highbridge,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Highbridge,82,Highbridge,BX26,16457230.3638,005
-Hoffman Island,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Hoffman_Island,0,park-cemetery-etc-Staten Island,SI99,24000714.9451,085
-Hollis,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Hollis,15,Hollis,QN07,22887772.9176,081
-Hollis Hills,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Hollis_Hills,12,Oakland Gardens,QN42,50976145.3227,081
-Holliswood,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Holliswood,10,Jamaica Estates-Holliswood,QN06,42789517.3626,081
-Howard Beach,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Howard_Beach,60,Lindenwood-Howard Beach,QN57,63884381.5006,081
-Howland Hook,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Howland_Hook,0,Mariner's Harbor-Arlington-Port Ivory-Graniteville,SI12,89057577.4918,085
-Huguenot,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Huguenot,1,Annadale-Huguenot-Prince's Bay-Eltingville,SI01,140799012.151,085
-Hunts Point,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Hunts_Point,36,Hunts Point,BX27,49734670.5573,005
-Inwood,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Inwood,220,Marble Hill-Inwood,MN01,17725321.2143,061
-Jackson Heights,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Jackson_Heights,189,Jackson Heights,QN28,47854896.0691,081
-Jamaica,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Jamaica,266,South Jamaica,QN01,39971928.6774,081
-Jamaica Estates,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Jamaica_Estates,165,Jamaica Estates-Holliswood,QN06,42789517.3626,081
-Jamaica Hills,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Jamaica_Hills,11,Briarwood-Jamaica Hills,QN35,29408863.1561,081
-John F. Kennedy International Airport,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/John_F_Kennedy_International_Airport,11338,Airport,QN98,227761739.733,081
-Kensington,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Kensington,281,Kensington-Ocean Parkway,BK41,15893349.4386,047
-Kew Gardens,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Kew_Gardens,90,Kew Gardens,QN60,20455799.5034,081
-Kew Gardens Hills,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Kew_Gardens_Hills,109,Kew Gardens Hills,QN37,37891124.4813,081
-Kingsbridge,Bronx,1,http://nyc.pediacities.com/Resource/Neighborhood/Kingsbridge,198,Van Cortlandt Village,BX28,25673275.303,005
-Kips Bay,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Kips_Bay,5670,Murray Hill-Kips Bay,MN20,14465848.0109,061
-LaGuardia Airport,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/LaGuardia_Airport,10191,Airport,QN98,227761739.733,081
-Latourette Park,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Latourette_Park,2,Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill,SI24,184847530.574,085
-Laurelton,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Laurelton,24,Laurelton,QN66,39763385.1299,081
-Liberty Island,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Liberty_Island,0,park-cemetery-etc-Manhattan,MN99,91540542.1537,061
-Lighthouse Hill,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Lighthouse_Hill,2,Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill,SI24,184847530.574,085
-Little Italy,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Little_Italy,1411,SoHo-TriBeCa-Civic Center-Little Italy,MN24,24859568.5173,061
-Little Neck,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Little_Neck,20,Douglas Manor-Douglaston-Little Neck,QN45,68567676.7487,081
-Long Island City,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Long_Island_City,3115,Hunters Point-Sunnyside-West Maspeth,QN31,102392938.704,081
-Longwood,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Longwood,79,Longwood,BX33,10732451.8442,005
-Lower East Side,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Lower_East_Side,10931,Lower East Side,MN28,23297615.8,061
-Manhattan Beach,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Manhattan_Beach,12,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,BK17,63343337.7196,047
-Marble Hill,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Marble_Hill,21,Marble Hill-Inwood,MN01,17725321.2143,061
-Marine Park,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Marine_Park,43,park-cemetery-etc-Brooklyn,BK99,228790857.479,047
-Mariners Harbor,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Mariners_Harbor,2,Mariner's Harbor-Arlington-Port Ivory-Graniteville,SI12,89057577.4918,085
-Maspeth,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Maspeth,238,Maspeth,QN30,35633309.4207,081
-Melrose,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Melrose,16,Melrose South-Mott Haven North,BX34,17269793.867,005
-Middle Village,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Middle_Village,110,Middle Village,QN21,57684674.7749,081
-Midland Beach,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Midland_Beach,0,New Dorp-Midland Beach,SI45,55434866.7628,085
-Midtown,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Midtown,91433,Midtown-Midtown South,MN17,30192056.9221,061
-Midwood,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Midwood,412,Midwood,BK43,35799637.8103,047
-Mill Basin,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Mill_Basin,42,Georgetown-Marine Park-Bergen Beach-Mill Basin,BK45,69328952.8314,047
-Morningside Heights,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Morningside_Heights,1348,Morningside Heights,MN09,20158317.285,061
-Morris Heights,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Morris_Heights,29,University Heights-Morris Heights,BX36,21251406.2729,005
-Morris Park,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Morris_Park,82,Pelham Parkway,BX49,23031630.7911,005
-Morrisania,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Morrisania,24,Morrisania-Melrose,BX35,16891753.5163,005
-Mott Haven,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Mott_Haven,124,Mott Haven-Port Morris,BX39,41903939.6546,005
-Mount Eden,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Mount_Eden,25,Highbridge,BX26,16457230.3638,005
-Mount Hope,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Mount_Hope,20,Mount Hope,BX41,14718296.4585,005
-Murray Hill,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Murray_Hill,9120,Murray Hill-Kips Bay,MN20,14465848.0109,061
-Navy Yard,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Navy_Yard,286,park-cemetery-etc-Brooklyn,BK99,228790857.479,047
-Neponsit,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Neponsit,1,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,QN10,99449481.6554,081
-New Brighton,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/New_Brighton,1,West New Brighton-New Brighton-St. George,SI22,56064920.5158,085
-New Dorp,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/New_Dorp,1,New Dorp-Midland Beach,SI45,55434866.7628,085
-New Dorp Beach,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/New_Dorp_Beach,0,New Dorp-Midland Beach,SI45,55434866.7628,085
-New Springville,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/New_Springville,3,Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill,SI24,184847530.574,085
-NoHo,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/NoHo,5996,West Village,MN23,25000526.0321,061
-Nolita,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Nolita,4229,SoHo-TriBeCa-Civic Center-Little Italy,MN24,24859568.5173,061
-North Brother Island,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/North_Brother_Island,0,Mott Haven-Port Morris,BX39,41903939.6546,005
-North Riverdale,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/North_Riverdale,31,North Riverdale-Fieldston-Riverdale,BX22,49046259.9597,005
-Norwood,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Norwood,116,Norwood,BX43,15708884.4138,005
-Oakwood,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Oakwood,0,Oakwood-Oakwood Beach,SI25,55951867.6117,085
-Olinville,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Olinville,5,Williamsbridge-Olinville,BX44,36273563.8081,005
-Ozone Park,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Ozone_Park,119,Ozone Park,QN56,25028558.6376,081
-Park Hill,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Park_Hill,2,Grymes Hill-Clifton-Fox Hills,SI08,37748488.6117,085
-Park Slope,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Park_Slope,3229,Park Slope-Gowanus,BK37,42518324.0484,047
-Parkchester,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Parkchester,42,West Farms-Bronx River,BX08,15081849.7438,005
-Pelham Bay,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Pelham_Bay,25,Pelham Bay-Country Club-City Island,BX10,40248130.5227,005
-Pelham Bay Park,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Pelham_Bay_Park,10,park-cemetery-etc-Bronx,BX99,220896061.306,005
-Pelham Gardens,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Pelham_Gardens,13,Allerton-Pelham Gardens,BX31,31684499.2906,005
-Pleasant Plains,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Pleasant_Plains,0,Charleston-Richmond Valley-Tottenville,SI11,145851675.668,085
-Plum Beach,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Plum_Beach,0,park-cemetery-etc-Brooklyn,BK99,228790857.479,047
-Port Morris,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Port_Morris,57,Mott Haven-Port Morris,BX39,41903939.6546,005
-Port Richmond,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Port_Richmond,0,Port Richmond,SI28,36421059.486,085
-Prince's Bay,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Prince_s_Bay,0,Annadale-Huguenot-Prince's Bay-Eltingville,SI01,140799012.151,085
-Prospect Heights,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Prospect_Heights,1591,Prospect Heights,BK64,10241664.3315,047
-Prospect Park,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Prospect_Park,406,park-cemetery-etc-Brooklyn,BK99,228790857.479,047
-Prospect-Lefferts Gardens,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Prospect_Lefferts_Gardens,586,Prospect Lefferts Gardens-Wingate,BK60,31642124.9727,047
-Queens Village,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Queens_Village,64,Queens Village,QN34,69533432.8468,081
-Randall Manor,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Randall_Manor,5,West New Brighton-New Brighton-St. George,SI22,56064920.5158,085
-Randall's Island,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Randall_s_Island,110,park-cemetery-etc-Manhattan,MN99,91540542.1537,061
-Red Hook,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Red_Hook,1073,Carroll Gardens-Columbia Street-Red Hook,BK33,44600270.3423,047
-Rego Park,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Rego_Park,193,Rego Park,QN18,19941409.9811,081
-Richmond Hill,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Richmond_Hill,149,Richmond Hill,QN54,50978895.6633,081
-Richmondtown,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Richmondtown,2,Oakwood-Oakwood Beach,SI25,55951867.6117,085
-Ridgewood,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Ridgewood,242,Ridgewood,QN20,50502645.6932,081
-Rikers Island,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Rikers_Island,0,Rikers Island,BX98,18154595.7962,005
-Riverdale,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Riverdale,102,North Riverdale-Fieldston-Riverdale,BX22,49046259.9597,005
-Rockaway Beach,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Rockaway_Beach,4,Hammels-Arverne-Edgemere,QN12,61904116.8013,081
-Rockaway Park,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Rockaway_Park,2,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,QN10,99449481.6554,081
-Roosevelt Island,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Roosevelt_Island,105,Lenox Hill-Roosevelt Island,MN31,21501564.9178,061
-Rosebank,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Rosebank,4,Stapleton-Rosebank,SI37,46523826.2222,085
-Rosedale,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Rosedale,38,Rosedale,QN05,61614930.5798,081
-Rossville,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Rossville,2,Rossville-Woodrow,SI32,64959465.3375,085
-Schuylerville,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Schuylerville,25,Schuylerville-Throgs Neck-Edgewater Park,BX52,88570461.2986,005
-Sea Gate,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Sea_Gate,3,Seagate-Coney Island,BK21,38725865.5956,047
-Sheepshead Bay,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Sheepshead_Bay,307,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,BK17,63343337.7196,047
-Shore Acres,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Shore_Acres,12,Stapleton-Rosebank,SI37,46523826.2222,085
-Silver Lake,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Silver_Lake,1,New Brighton-Silver Lake,SI35,47140398.5059,085
-SoHo,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/SoHo,26196,SoHo-TriBeCa-Civic Center-Little Italy,MN24,24859568.5173,061
-Soundview,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Soundview,30,Soundview-Bruckner,BX55,16260511.4214,005
-South Beach,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/South_Beach,5,Old Town-Dongan Hills-South Beach,SI36,67010738.0679,085
-South Brother Island,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/South_Brother_Island,0,Mott Haven-Port Morris,BX39,41903939.6546,005
-South Ozone Park,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/South_Ozone_Park,214,South Ozone Park,QN55,82461747.3901,081
-South Slope,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/South_Slope,1011,Park Slope-Gowanus,BK37,42518324.0484,047
-Springfield Gardens,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Springfield_Gardens,77,Springfield Gardens North,QN02,28428437.6791,081
-Spuyten Duyvil,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Spuyten_Duyvil,34,Spuyten Duyvil-Kingsbridge,BX29,23220349.3359,005
-St. Albans,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/St_Albans,69,St. Albans,QN08,77412747.7581,081
-St. George,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/St_George,5,West New Brighton-New Brighton-St. George,SI22,56064920.5158,085
-Stapleton,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Stapleton,1,Stapleton-Rosebank,SI37,46523826.2222,085
-Stuyvesant Town,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Stuyvesant_Town,2611,Stuyvesant Town-Cooper Village,MN50,5575232.22541,061
-Sunnyside,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Sunnyside,617,Hunters Point-Sunnyside-West Maspeth,QN31,102392938.704,081
-Sunset Park,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Sunset_Park,950,Sunset Park West,BK32,50067191.2566,047
-Theater District,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Theater_District,16321,Midtown-Midtown South,MN17,30192056.9221,061
-Throgs Neck,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Throgs_Neck,39,Schuylerville-Throgs Neck-Edgewater Park,BX52,88570461.2986,005
-Todt Hill,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Todt_Hill,1,Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill,SI24,184847530.574,085
-Tompkinsville,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Tompkinsville,1,Grymes Hill-Clifton-Fox Hills,SI08,37748488.6117,085
-Tottenville,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Tottenville,0,Charleston-Richmond Valley-Tottenville,SI11,145851675.668,085
-Tremont,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Tremont,15,East Tremont,BX17,19256405.1623,005
-Tribeca,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Tribeca,18393,SoHo-TriBeCa-Civic Center-Little Italy,MN24,24859568.5173,061
-Two Bridges,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Two_Bridges,329,Chinatown,MN27,14501953.104,061
-Unionport,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Unionport,16,Westchester-Unionport,BX59,23945209.5009,005
-University Heights,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/University_Heights,40,Kingsbridge Heights,BX30,13167198.1692,005
-Upper East Side,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Upper_East_Side,47928,Lenox Hill-Roosevelt Island,MN31,21501564.9178,061
-Upper West Side,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Upper_West_Side,25889,Upper West Side,MN12,34381053.2223,061
-Van Cortlandt Park,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Van_Cortlandt_Park,34,park-cemetery-etc-Bronx,BX99,220896061.306,005
-Van Nest,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Van Nest,14,Van Nest-Morris Park-Westchester Square,BX37,36304722.8209,005
-Vinegar Hill,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Vinegar_Hill,438,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,BK38,28462565.7562,047
-Wakefield,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Wakefield,36,Woodlawn-Wakefield,BX62,39744928.4221,005
-Washington Heights,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Washington_Heights,1145,Washington Heights South,MN36,23100222.7507,061
-West Brighton,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/West_Brighton,8,New Brighton-Silver Lake,SI35,47140398.5059,085
-West Farms,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/West_Farms,15,East Tremont,BX17,19256405.1623,005
-West Village,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/West_Village,29017,West Village,MN23,25000526.0321,061
-Westchester Square,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Westchester_Square,32,Van Nest-Morris Park-Westchester Square,BX37,36304722.8209,005
-Westerleigh,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Westerleigh,3,Westerleigh,SI07,63293572.2794,085
-Whitestone,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Whitestone,66,Whitestone,QN49,69043734.8995,081
-Williamsbridge,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Williamsbridge,39,Williamsbridge-Olinville,BX44,36273563.8081,005
-Williamsburg,Brooklyn,4,http://nyc.pediacities.com/Resource/Neighborhood/Williamsburg,14502,East Williamsburg,BK90,39141060.0713,047
-Willowbrook,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Willowbrook,0,New Springville-Bloomfield-Travis,SI05,327762258.869,085
-Windsor Terrace,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Windsor_Terrace,379,Windsor Terrace,BK40,14041611.8205,047
-Woodhaven,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Woodhaven,55,Woodhaven,QN53,37001316.6276,081
-Woodlawn,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Woodlawn,17,park-cemetery-etc-Bronx,BX99,220896061.306,005
-Woodrow,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Woodrow,0,Rossville-Woodrow,SI32,64959465.3375,085
-Woodside,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Woodside,159,Woodside,QN63,28245728.0828,081
+l_neighborhood,l_borough,l_boroughId,l_neighborhoodId,l_pickups,l_nta_name,l_nta_id,l_nta_area,l_nta_county_fips,l_pop_2000,l_pop_2010
+Allerton,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Allerton,53,Bronxdale,BX07,15194897.2638,005,34309,35538
+Alley Pond Park,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Alley_Pond_Park,1,park-cemetery-etc-Queens,QN99,311684971.61,081,1785,436
+Arden Heights,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Arden_Heights,1,Arden Heights,SI48,50407530.0454,085,24996,25238
+Arlington,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Arlington,0,Mariner's Harbor-Arlington-Port Ivory-Graniteville,SI12,89057577.4918,085,27957,31474
+Arrochar,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Arrochar,2,Old Town-Dongan Hills-South Beach,SI36,67010738.0679,085,23017,24835
+Arverne,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Arverne,1,Hammels-Arverne-Edgemere,QN12,61904116.8013,081,31645,36885
+Astoria,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Astoria,1472,Astoria,QN70,39334264.4843,081,89122,78793
+Bath Beach,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Bath_Beach,55,Bath Beach,BK27,20538896.9711,047,28572,29931
+Battery Park City,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Battery_Park_City,5717,Battery Park City-Lower Manhattan,MN25,19056256.3105,061,20088,39699
+Bay Ridge,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Bay_Ridge,338,Bay Ridge,BK31,67120372.6974,047,80539,79371
+Bay Terrace,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Bay_Terrace,28,Ft. Totten-Bay Terrace-Clearview,QN47,46297599.7752,081,22731,21751
+"Bay Terrace, Staten Island",Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Bay_Terrace_Staten_Island,1,Great Kills,SI54,89602052.3389,085,41680,40720
+Baychester,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Baychester,15,Eastchester-Edenwald-Baychester,BX03,40256749.6627,005,35422,34517
+Bayside,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Bayside,114,Bayside-Bayside Hills,QN46,80797536.0623,081,44371,43808
+Bayswater,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Bayswater,2,park-cemetery-etc-Queens,QN99,311684971.61,081,1785,436
+Bedford-Stuyvesant,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Bedford_Stuyvesant,4621,Stuyvesant Heights,BK35,31407005.0688,047,61827,63504
+Belle Harbor,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Belle_Harbor,0,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,QN10,99449481.6554,081,26711,28018
+Bellerose,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Bellerose,23,Bellerose,QN43,55194891.771,081,24464,25287
+Belmont,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Belmont,143,Belmont,BX06,13557354.9494,005,25967,27378
+Bensonhurst,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Bensonhurst,103,Bensonhurst West,BK28,46666292.7867,047,84640,88727
+Bergen Beach,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Bergen_Beach,34,Georgetown-Marine Park-Bergen Beach-Mill Basin,BK45,69328952.8314,047,42940,45231
+Bloomfield,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Bloomfield,0,New Springville-Bloomfield-Travis,SI05,327762258.869,085,39309,39597
+Boerum Hill,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Boerum_Hill,1592,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,BK38,28462565.7562,047,30847,34495
+Borough Park,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Borough_Park,241,Borough Park,BK88,54005019.2286,047,101055,106357
+Breezy Point,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Breezy_Point,2,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,QN10,99449481.6554,081,26711,28018
+Briarwood,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Briarwood,41,Briarwood-Jamaica Hills,QN35,29408863.1561,081,38675,39138
+Brighton Beach,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Brighton_Beach,104,West Brighton,BK23,8745781.98734,047,17370,17750
+Broad Channel,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Broad_Channel,1,park-cemetery-etc-Queens,QN99,311684971.61,081,1785,436
+Bronx Park,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Bronx_Park,86,park-cemetery-etc-Bronx,BX99,220896061.306,005,540,1906
+Bronxdale,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Bronxdale,26,Pelham Parkway,BX49,23031630.7911,005,30006,30073
+Brooklyn Heights,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Brooklyn_Heights,2585,Brooklyn Heights-Cobble Hill,BK09,9984670.16344,047,22548,22887
+Brownsville,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Brownsville,210,Brownsville,BK81,32730861.1091,047,59099,58300
+Bull's Head,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Bull_s_Head,8,New Springville-Bloomfield-Travis,SI05,327762258.869,085,39309,39597
+Bushwick,Brooklyn,4,http://nyc.pediacities.com/Resource/Neighborhood/Bushwick,2467,Bushwick South,BK78,40192390.2146,047,64617,72101
+Cambria Heights,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Cambria_Heights,23,Cambria Heights,QN33,33076798.044,081,20944,18677
+Canarsie,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Canarsie,195,Canarsie,BK50,82015446.67,047,85058,83693
+Carroll Gardens,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Carroll_Gardens,1615,Carroll Gardens-Columbia Street-Red Hook,BK33,44600270.3423,047,38327,38353
+Castle Hill,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Castle_Hill,7,Soundview-Castle Hill-Clason Point-Harding Park,BX09,51958970.2168,005,50753,53686
+Castleton Corners,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Castleton_Corners,5,Westerleigh,SI07,63293572.2794,085,23790,24102
+Central Park,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Central_Park,3802,park-cemetery-etc-Manhattan,MN99,91540542.1537,061,1662,1849
+Charleston,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Charleston,0,Charleston-Richmond Valley-Tottenville,SI11,145851675.668,085,18332,23313
+Chelsea,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Chelsea,46142,Hudson Yards-Chelsea-Flatiron-Union Square,MN13,37029727.2874,061,55839,70150
+"Chelsea, Staten Island",Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Chelsea_Staten_Island,2,New Springville-Bloomfield-Travis,SI05,327762258.869,085,39309,39597
+Chinatown,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Chinatown,3439,Chinatown,MN27,14501953.104,061,52375,47844
+City Island,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/City_Island,3,Pelham Bay-Country Club-City Island,BX10,40248130.5227,005,27140,26583
+Civic Center,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Civic_Center,1206,Chinatown,MN27,14501953.104,061,52375,47844
+Claremont Village,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Claremont_Village,40,park-cemetery-etc-Bronx,BX99,220896061.306,005,540,1906
+Clason Point,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Clason_Point,19,Soundview-Castle Hill-Clason Point-Harding Park,BX09,51958970.2168,005,50753,53686
+Clifton,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Clifton,3,Stapleton-Rosebank,SI37,46523826.2222,085,24048,26453
+Clinton Hill,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Clinton_Hill,2317,Clinton Hill,BK69,20528139.3756,047,33292,34791
+Co-op City,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Co_op_City,28,Co-op City,BX13,39875760.074,005,40676,43752
+Cobble Hill,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Cobble_Hill,947,Carroll Gardens-Columbia Street-Red Hook,BK33,44600270.3423,047,38327,38353
+College Point,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/College_Point,87,College Point,QN23,50626759.4129,081,21407,24275
+Columbia St,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Columbia_St,401,Carroll Gardens-Columbia Street-Red Hook,BK33,44600270.3423,047,38327,38353
+Concord,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Concord,7,Grasmere-Arrochar-Ft. Wadsworth,SI14,40946383.452,085,15238,16079
+Concourse,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Concourse,437,West Concourse,BX63,19369542.2241,005,39557,39282
+Concourse Village,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Concourse_Village,88,East Concourse-Concourse Village,BX14,18232622.2923,005,58961,62284
+Coney Island,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Coney_Island,23,Seagate-Coney Island,BK21,38725865.5956,047,34267,31965
+Corona,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Corona,77,Corona,QN25,20080371.6309,081,52082,57658
+Country Club,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Country_Club,8,Pelham Bay-Country Club-City Island,BX10,40248130.5227,005,27140,26583
+Crotona Park,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Crotona_Park,2,park-cemetery-etc-Bronx,BX99,220896061.306,005,540,1906
+Crown Heights,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Crown_Heights,2850,Crown Heights North,BK61,51619074.4581,047,103462,103169
+Cunningham Park,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Cunningham_Park,0,park-cemetery-etc-Queens,QN99,311684971.61,081,1785,436
+Cypress Hills,Brooklyn,4,http://nyc.pediacities.com/Resource/Neighborhood/Cypress_Hills,116,Cypress Hills-City Line,BK83,27609992.4426,047,48961,49223
+DUMBO,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/DUMBO,2237,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,BK38,28462565.7562,047,30847,34495
+Ditmars Steinway,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Ditmars_Steinway,705,Steinway,QN72,57767020.8232,081,53604,47534
+Dongan Hills,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Dongan_Hills,2,Old Town-Dongan Hills-South Beach,SI36,67010738.0679,085,23017,24835
+Douglaston,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Douglaston,23,Douglas Manor-Douglaston-Little Neck,QN45,68567676.7487,081,24356,24739
+Downtown Brooklyn,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Downtown_Brooklyn,2248,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,BK38,28462565.7562,047,30847,34495
+Dyker Heights,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Dyker_Heights,123,Dyker Heights,BK30,29908238.2333,047,39332,42419
+East Elmhurst,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/East_Elmhurst,582,Jackson Heights,QN28,47854896.0691,081,113327,108152
+East Harlem,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/East_Harlem,2126,East Harlem North,MN34,24495419.8871,061,57148,58019
+East Morrisania,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/East_Morrisania,42,Crotona Park East,BX75,16316218.0219,005,18072,20277
+East New York,Brooklyn,4,http://nyc.pediacities.com/Resource/Neighborhood/East_New_York,331,East New York,BK82,117170154.658,047,83275,91958
+East Village,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/East_Village,20474,East Village,MN22,10895491.3668,061,41746,44136
+Eastchester,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Eastchester,15,Co-op City,BX13,39875760.074,005,40676,43752
+Edenwald,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Edenwald,20,Eastchester-Edenwald-Baychester,BX03,40256749.6627,005,35422,34517
+Edgemere,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Edgemere,4,Hammels-Arverne-Edgemere,QN12,61904116.8013,081,31645,36885
+Elmhurst,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Elmhurst,225,Elmhurst,QN29,32671507.7066,081,87972,88427
+Eltingville,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Eltingville,3,Great Kills,SI54,89602052.3389,085,41680,40720
+Emerson Hill,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Emerson_Hill,4,New Springville-Bloomfield-Travis,SI05,327762258.869,085,39309,39597
+Far Rockaway,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Far_Rockaway,21,Far Rockaway-Bayswater,QN15,54348630.0105,081,48344,50058
+Ferry Point Park,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Ferry_Point_Park,0,Schuylerville-Throgs Neck-Edgewater Park,BX52,88570461.2986,005,43712,44167
+Fieldston,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Fieldston,332,North Riverdale-Fieldston-Riverdale,BX22,49046259.9597,005,28013,27860
+Financial District,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Financial_District,14550,Battery Park City-Lower Manhattan,MN25,19056256.3105,061,20088,39699
+Flatbush,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Flatbush,748,Flatbush,BK42,45254811.4745,047,110875,105804
+Flatiron District,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Flatiron_District,10153,Hudson Yards-Chelsea-Flatiron-Union Square,MN13,37029727.2874,061,55839,70150
+Flatlands,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Flatlands,191,Flatlands,BK58,54341763.5546,047,66726,64762
+Floral Park,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Floral_Park,31,Glen Oaks-Floral Park-New Hyde Park,QN44,45665592.1293,081,22426,22571
+Floyd Bennett Field,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Floyd_Bennett_Field,6,park-cemetery-etc-Brooklyn,BK99,228790857.479,047,93,418
+Flushing,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Flushing,507,East Flushing,QN52,29454379.9663,081,26516,26982
+Flushing Meadows Corona Park,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Flushing_Meadows_Corona_Park,261,park-cemetery-etc-Queens,QN99,311684971.61,081,1785,436
+Fordham,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Fordham,158,Bedford Park-Fordham North,BX05,14998883.2414,005,55329,54415
+Forest Hills,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Forest_Hills,452,Forest Hills,QN17,57828447.5721,081,85046,83728
+Forest Park,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Forest_Park,10,park-cemetery-etc-Queens,QN99,311684971.61,081,1785,436
+Fort Greene,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Fort_Greene,2609,Fort Greene,BK68,16482896.1773,047,28335,26079
+Fort Hamilton,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Fort_Hamilton,285,Bay Ridge,BK31,67120372.6974,047,80539,79371
+Fort Wadsworth,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Fort_Wadsworth,0,Grasmere-Arrochar-Ft. Wadsworth,SI14,40946383.452,085,15238,16079
+Fresh Meadows,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Fresh_Meadows,52,Fresh Meadows-Utopia,QN41,27774853.949,081,17373,17812
+Freshkills Park,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Freshkills_Park,0,New Springville-Bloomfield-Travis,SI05,327762258.869,085,39309,39597
+Gerritsen Beach,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Gerritsen_Beach,6,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,BK17,63343337.7196,047,64596,64518
+Glen Oaks,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Glen_Oaks,11,Glen Oaks-Floral Park-New Hyde Park,QN44,45665592.1293,081,22426,22571
+Glendale,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Glendale,87,Glendale,QN19,29974392.8939,081,31071,32496
+Governors Island,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Governors_Island,0,park-cemetery-etc-Manhattan,MN99,91540542.1537,061,1662,1849
+Gowanus,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Gowanus,1655,Park Slope-Gowanus,BK37,42518324.0484,047,67263,67649
+Gramercy,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Gramercy,9098,Gramercy,MN21,7531454.90511,061,26184,27988
+Graniteville,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Graniteville,9,Mariner's Harbor-Arlington-Port Ivory-Graniteville,SI12,89057577.4918,085,27957,31474
+Grant City,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Grant_City,0,New Dorp-Midland Beach,SI45,55434866.7628,085,20242,21896
+Gravesend,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Gravesend,317,Bensonhurst East,BK29,35776108.8534,047,58566,62978
+Great Kills,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Great_Kills,3,Great Kills,SI54,89602052.3389,085,41680,40720
+Great Kills Park,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Great_Kills_Park,0,park-cemetery-etc-Staten Island,SI99,24000714.9451,085,7,0
+Green-Wood Cemetery,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Green_Wood_Cemetery,13,park-cemetery-etc-Brooklyn,BK99,228790857.479,047,93,418
+Greenpoint,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Greenpoint,3949,Greenpoint,BK76,35337582.9629,047,37821,34719
+Greenwich Village,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Greenwich_Village,15622,West Village,MN23,25000526.0321,061,68483,66880
+Grymes Hill,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Grymes_Hill,7,Grymes Hill-Clifton-Fox Hills,SI08,37748488.6117,085,19834,22460
+Harlem,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Harlem,3109,Central Harlem North-Polo Grounds,MN03,25403425.2536,061,70016,75282
+Hart Island,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Hart_Island,0,Pelham Bay-Country Club-City Island,BX10,40248130.5227,005,27140,26583
+Hell's Kitchen,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Hell_s_Kitchen,19673,Clinton,MN15,18381380.2263,061,40595,45884
+Highbridge,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Highbridge,82,Highbridge,BX26,16457230.3638,005,33844,37727
+Hoffman Island,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Hoffman_Island,0,park-cemetery-etc-Staten Island,SI99,24000714.9451,085,7,0
+Hollis,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Hollis,15,Hollis,QN07,22887772.9176,081,20747,20269
+Hollis Hills,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Hollis_Hills,12,Oakland Gardens,QN42,50976145.3227,081,27873,28237
+Holliswood,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Holliswood,10,Jamaica Estates-Holliswood,QN06,42789517.3626,081,26061,25480
+Howard Beach,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Howard_Beach,60,Lindenwood-Howard Beach,QN57,63884381.5006,081,28121,26148
+Howland Hook,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Howland_Hook,0,Mariner's Harbor-Arlington-Port Ivory-Graniteville,SI12,89057577.4918,085,27957,31474
+Huguenot,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Huguenot,1,Annadale-Huguenot-Prince's Bay-Eltingville,SI01,140799012.151,085,26376,27770
+Hunts Point,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Hunts_Point,36,Hunts Point,BX27,49734670.5573,005,25142,27204
+Inwood,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Inwood,220,Marble Hill-Inwood,MN01,17725321.2143,061,49087,46746
+Jackson Heights,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Jackson_Heights,189,Jackson Heights,QN28,47854896.0691,081,113327,108152
+Jamaica,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Jamaica,266,South Jamaica,QN01,39971928.6774,081,35181,38894
+Jamaica Estates,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Jamaica_Estates,165,Jamaica Estates-Holliswood,QN06,42789517.3626,081,26061,25480
+Jamaica Hills,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Jamaica_Hills,11,Briarwood-Jamaica Hills,QN35,29408863.1561,081,38675,39138
+John F. Kennedy International Airport,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/John_F_Kennedy_International_Airport,11338,Airport,QN98,227761739.733,081,0,0
+Kensington,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Kensington,281,Kensington-Ocean Parkway,BK41,15893349.4386,047,36937,36891
+Kew Gardens,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Kew_Gardens,90,Kew Gardens,QN60,20455799.5034,081,23888,23278
+Kew Gardens Hills,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Kew_Gardens_Hills,109,Kew Gardens Hills,QN37,37891124.4813,081,36052,37479
+Kingsbridge,Bronx,1,http://nyc.pediacities.com/Resource/Neighborhood/Kingsbridge,198,Van Cortlandt Village,BX28,25673275.303,005,50607,50100
+Kips Bay,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Kips_Bay,5670,Murray Hill-Kips Bay,MN20,14465848.0109,061,48419,50742
+LaGuardia Airport,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/LaGuardia_Airport,10191,Airport,QN98,227761739.733,081,0,0
+Latourette Park,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Latourette_Park,2,Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill,SI24,184847530.574,085,30762,30714
+Laurelton,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Laurelton,24,Laurelton,QN66,39763385.1299,081,26375,24453
+Liberty Island,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Liberty_Island,0,park-cemetery-etc-Manhattan,MN99,91540542.1537,061,1662,1849
+Lighthouse Hill,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Lighthouse_Hill,2,Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill,SI24,184847530.574,085,30762,30714
+Little Italy,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Little_Italy,1411,SoHo-TriBeCa-Civic Center-Little Italy,MN24,24859568.5173,061,36757,42742
+Little Neck,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Little_Neck,20,Douglas Manor-Douglaston-Little Neck,QN45,68567676.7487,081,24356,24739
+Long Island City,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Long_Island_City,3115,Hunters Point-Sunnyside-West Maspeth,QN31,102392938.704,081,61947,63271
+Longwood,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Longwood,79,Longwood,BX33,10732451.8442,005,23082,26196
+Lower East Side,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Lower_East_Side,10931,Lower East Side,MN28,23297615.8,061,72258,72957
+Manhattan Beach,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Manhattan_Beach,12,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,BK17,63343337.7196,047,64596,64518
+Marble Hill,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Marble_Hill,21,Marble Hill-Inwood,MN01,17725321.2143,061,49087,46746
+Marine Park,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Marine_Park,43,park-cemetery-etc-Brooklyn,BK99,228790857.479,047,93,418
+Mariners Harbor,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Mariners_Harbor,2,Mariner's Harbor-Arlington-Port Ivory-Graniteville,SI12,89057577.4918,085,27957,31474
+Maspeth,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Maspeth,238,Maspeth,QN30,35633309.4207,081,28916,30516
+Melrose,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Melrose,16,Melrose South-Mott Haven North,BX34,17269793.867,005,33195,39214
+Middle Village,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Middle_Village,110,Middle Village,QN21,57684674.7749,081,37629,37929
+Midland Beach,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Midland_Beach,0,New Dorp-Midland Beach,SI45,55434866.7628,085,20242,21896
+Midtown,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Midtown,91433,Midtown-Midtown South,MN17,30192056.9221,061,25807,28630
+Midwood,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Midwood,412,Midwood,BK43,35799637.8103,047,55440,52835
+Mill Basin,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Mill_Basin,42,Georgetown-Marine Park-Bergen Beach-Mill Basin,BK45,69328952.8314,047,42940,45231
+Morningside Heights,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Morningside_Heights,1348,Morningside Heights,MN09,20158317.285,061,54208,55929
+Morris Heights,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Morris_Heights,29,University Heights-Morris Heights,BX36,21251406.2729,005,54335,54188
+Morris Park,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Morris_Park,82,Pelham Parkway,BX49,23031630.7911,005,30006,30073
+Morrisania,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Morrisania,24,Morrisania-Melrose,BX35,16891753.5163,005,29797,37865
+Mott Haven,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Mott_Haven,124,Mott Haven-Port Morris,BX39,41903939.6546,005,49030,52413
+Mount Eden,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Mount_Eden,25,Highbridge,BX26,16457230.3638,005,33844,37727
+Mount Hope,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Mount_Hope,20,Mount Hope,BX41,14718296.4585,005,52649,51807
+Murray Hill,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Murray_Hill,9120,Murray Hill-Kips Bay,MN20,14465848.0109,061,48419,50742
+Navy Yard,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Navy_Yard,286,park-cemetery-etc-Brooklyn,BK99,228790857.479,047,93,418
+Neponsit,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Neponsit,1,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,QN10,99449481.6554,081,26711,28018
+New Brighton,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/New_Brighton,1,West New Brighton-New Brighton-St. George,SI22,56064920.5158,085,32154,33551
+New Dorp,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/New_Dorp,1,New Dorp-Midland Beach,SI45,55434866.7628,085,20242,21896
+New Dorp Beach,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/New_Dorp_Beach,0,New Dorp-Midland Beach,SI45,55434866.7628,085,20242,21896
+New Springville,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/New_Springville,3,Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill,SI24,184847530.574,085,30762,30714
+NoHo,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/NoHo,5996,West Village,MN23,25000526.0321,061,68483,66880
+Nolita,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Nolita,4229,SoHo-TriBeCa-Civic Center-Little Italy,MN24,24859568.5173,061,36757,42742
+North Brother Island,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/North_Brother_Island,0,Mott Haven-Port Morris,BX39,41903939.6546,005,49030,52413
+North Riverdale,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/North_Riverdale,31,North Riverdale-Fieldston-Riverdale,BX22,49046259.9597,005,28013,27860
+Norwood,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Norwood,116,Norwood,BX43,15708884.4138,005,40817,40494
+Oakwood,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Oakwood,0,Oakwood-Oakwood Beach,SI25,55951867.6117,085,22266,22049
+Olinville,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Olinville,5,Williamsbridge-Olinville,BX44,36273563.8081,005,57420,61321
+Ozone Park,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Ozone_Park,119,Ozone Park,QN56,25028558.6376,081,21052,21376
+Park Hill,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Park_Hill,2,Grymes Hill-Clifton-Fox Hills,SI08,37748488.6117,085,19834,22460
+Park Slope,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Park_Slope,3229,Park Slope-Gowanus,BK37,42518324.0484,047,67263,67649
+Parkchester,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Parkchester,42,West Farms-Bronx River,BX08,15081849.7438,005,34542,35011
+Pelham Bay,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Pelham_Bay,25,Pelham Bay-Country Club-City Island,BX10,40248130.5227,005,27140,26583
+Pelham Bay Park,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Pelham_Bay_Park,10,park-cemetery-etc-Bronx,BX99,220896061.306,005,540,1906
+Pelham Gardens,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Pelham_Gardens,13,Allerton-Pelham Gardens,BX31,31684499.2906,005,28510,28903
+Pleasant Plains,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Pleasant_Plains,0,Charleston-Richmond Valley-Tottenville,SI11,145851675.668,085,18332,23313
+Plum Beach,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Plum_Beach,0,park-cemetery-etc-Brooklyn,BK99,228790857.479,047,93,418
+Port Morris,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Port_Morris,57,Mott Haven-Port Morris,BX39,41903939.6546,005,49030,52413
+Port Richmond,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Port_Richmond,0,Port Richmond,SI28,36421059.486,085,18042,20191
+Prince's Bay,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Prince_s_Bay,0,Annadale-Huguenot-Prince's Bay-Eltingville,SI01,140799012.151,085,26376,27770
+Prospect Heights,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Prospect_Heights,1591,Prospect Heights,BK64,10241664.3315,047,19655,19849
+Prospect Park,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Prospect_Park,406,park-cemetery-etc-Brooklyn,BK99,228790857.479,047,93,418
+Prospect-Lefferts Gardens,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Prospect_Lefferts_Gardens,586,Prospect Lefferts Gardens-Wingate,BK60,31642124.9727,047,70300,67459
+Queens Village,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Queens_Village,64,Queens Village,QN34,69533432.8468,081,57704,52504
+Randall Manor,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Randall_Manor,5,West New Brighton-New Brighton-St. George,SI22,56064920.5158,085,32154,33551
+Randall's Island,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Randall_s_Island,110,park-cemetery-etc-Manhattan,MN99,91540542.1537,061,1662,1849
+Red Hook,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Red_Hook,1073,Carroll Gardens-Columbia Street-Red Hook,BK33,44600270.3423,047,38327,38353
+Rego Park,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Rego_Park,193,Rego Park,QN18,19941409.9811,081,29404,28260
+Richmond Hill,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Richmond_Hill,149,Richmond Hill,QN54,50978895.6633,081,62985,62982
+Richmondtown,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Richmondtown,2,Oakwood-Oakwood Beach,SI25,55951867.6117,085,22266,22049
+Ridgewood,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Ridgewood,242,Ridgewood,QN20,50502645.6932,081,69455,69317
+Rikers Island,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Rikers_Island,0,Rikers Island,BX98,18154595.7962,005,12780,11091
+Riverdale,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Riverdale,102,North Riverdale-Fieldston-Riverdale,BX22,49046259.9597,005,28013,27860
+Rockaway Beach,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Rockaway_Beach,4,Hammels-Arverne-Edgemere,QN12,61904116.8013,081,31645,36885
+Rockaway Park,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Rockaway_Park,2,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,QN10,99449481.6554,081,26711,28018
+Roosevelt Island,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Roosevelt_Island,105,Lenox Hill-Roosevelt Island,MN31,21501564.9178,061,76631,80771
+Rosebank,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Rosebank,4,Stapleton-Rosebank,SI37,46523826.2222,085,24048,26453
+Rosedale,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Rosedale,38,Rosedale,QN05,61614930.5798,081,25502,25063
+Rossville,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Rossville,2,Rossville-Woodrow,SI32,64959465.3375,085,18894,20763
+Schuylerville,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Schuylerville,25,Schuylerville-Throgs Neck-Edgewater Park,BX52,88570461.2986,005,43712,44167
+Sea Gate,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Sea_Gate,3,Seagate-Coney Island,BK21,38725865.5956,047,34267,31965
+Sheepshead Bay,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Sheepshead_Bay,307,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,BK17,63343337.7196,047,64596,64518
+Shore Acres,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Shore_Acres,12,Stapleton-Rosebank,SI37,46523826.2222,085,24048,26453
+Silver Lake,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Silver_Lake,1,New Brighton-Silver Lake,SI35,47140398.5059,085,16784,17525
+SoHo,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/SoHo,26196,SoHo-TriBeCa-Civic Center-Little Italy,MN24,24859568.5173,061,36757,42742
+Soundview,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Soundview,30,Soundview-Bruckner,BX55,16260511.4214,005,35137,35634
+South Beach,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/South_Beach,5,Old Town-Dongan Hills-South Beach,SI36,67010738.0679,085,23017,24835
+South Brother Island,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/South_Brother_Island,0,Mott Haven-Port Morris,BX39,41903939.6546,005,49030,52413
+South Ozone Park,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/South_Ozone_Park,214,South Ozone Park,QN55,82461747.3901,081,78906,75878
+South Slope,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/South_Slope,1011,Park Slope-Gowanus,BK37,42518324.0484,047,67263,67649
+Springfield Gardens,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Springfield_Gardens,77,Springfield Gardens North,QN02,28428437.6791,081,25441,25409
+Spuyten Duyvil,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Spuyten_Duyvil,34,Spuyten Duyvil-Kingsbridge,BX29,23220349.3359,005,29872,30161
+St. Albans,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/St_Albans,69,St. Albans,QN08,77412747.7581,081,50046,48593
+St. George,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/St_George,5,West New Brighton-New Brighton-St. George,SI22,56064920.5158,085,32154,33551
+Stapleton,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Stapleton,1,Stapleton-Rosebank,SI37,46523826.2222,085,24048,26453
+Stuyvesant Town,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Stuyvesant_Town,2611,Stuyvesant Town-Cooper Village,MN50,5575232.22541,061,19101,21049
+Sunnyside,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Sunnyside,617,Hunters Point-Sunnyside-West Maspeth,QN31,102392938.704,081,61947,63271
+Sunset Park,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Sunset_Park,950,Sunset Park West,BK32,50067191.2566,047,52312,54041
+Theater District,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Theater_District,16321,Midtown-Midtown South,MN17,30192056.9221,061,25807,28630
+Throgs Neck,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Throgs_Neck,39,Schuylerville-Throgs Neck-Edgewater Park,BX52,88570461.2986,005,43712,44167
+Todt Hill,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Todt_Hill,1,Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill,SI24,184847530.574,085,30762,30714
+Tompkinsville,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Tompkinsville,1,Grymes Hill-Clifton-Fox Hills,SI08,37748488.6117,085,19834,22460
+Tottenville,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Tottenville,0,Charleston-Richmond Valley-Tottenville,SI11,145851675.668,085,18332,23313
+Tremont,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Tremont,15,East Tremont,BX17,19256405.1623,005,39280,43423
+Tribeca,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Tribeca,18393,SoHo-TriBeCa-Civic Center-Little Italy,MN24,24859568.5173,061,36757,42742
+Two Bridges,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Two_Bridges,329,Chinatown,MN27,14501953.104,061,52375,47844
+Unionport,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Unionport,16,Westchester-Unionport,BX59,23945209.5009,005,25768,27248
+University Heights,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/University_Heights,40,Kingsbridge Heights,BX30,13167198.1692,005,33286,32496
+Upper East Side,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Upper_East_Side,47928,Lenox Hill-Roosevelt Island,MN31,21501564.9178,061,76631,80771
+Upper West Side,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Upper_West_Side,25889,Upper West Side,MN12,34381053.2223,061,136954,132378
+Van Cortlandt Park,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Van_Cortlandt_Park,34,park-cemetery-etc-Bronx,BX99,220896061.306,005,540,1906
+Van Nest,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Van Nest,14,Van Nest-Morris Park-Westchester Square,BX37,36304722.8209,005,27135,29250
+Vinegar Hill,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Vinegar_Hill,438,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,BK38,28462565.7562,047,30847,34495
+Wakefield,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Wakefield,36,Woodlawn-Wakefield,BX62,39744928.4221,005,43583,42483
+Washington Heights,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/Washington_Heights,1145,Washington Heights South,MN36,23100222.7507,061,93671,84438
+West Brighton,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/West_Brighton,8,New Brighton-Silver Lake,SI35,47140398.5059,085,16784,17525
+West Farms,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/West_Farms,15,East Tremont,BX17,19256405.1623,005,39280,43423
+West Village,Manhattan,1,http://nyc.pediacities.com/Resource/Neighborhood/West_Village,29017,West Village,MN23,25000526.0321,061,68483,66880
+Westchester Square,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Westchester_Square,32,Van Nest-Morris Park-Westchester Square,BX37,36304722.8209,005,27135,29250
+Westerleigh,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Westerleigh,3,Westerleigh,SI07,63293572.2794,085,23790,24102
+Whitestone,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Whitestone,66,Whitestone,QN49,69043734.8995,081,31356,30773
+Williamsbridge,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Williamsbridge,39,Williamsbridge-Olinville,BX44,36273563.8081,005,57420,61321
+Williamsburg,Brooklyn,4,http://nyc.pediacities.com/Resource/Neighborhood/Williamsburg,14502,East Williamsburg,BK90,39141060.0713,047,31878,34158
+Willowbrook,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Willowbrook,0,New Springville-Bloomfield-Travis,SI05,327762258.869,085,39309,39597
+Windsor Terrace,Brooklyn,3,http://nyc.pediacities.com/Resource/Neighborhood/Windsor_Terrace,379,Windsor Terrace,BK40,14041611.8205,047,20779,20988
+Woodhaven,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Woodhaven,55,Woodhaven,QN53,37001316.6276,081,54149,56674
+Woodlawn,Bronx,2,http://nyc.pediacities.com/Resource/Neighborhood/Woodlawn,17,park-cemetery-etc-Bronx,BX99,220896061.306,005,540,1906
+Woodrow,Staten Island,5,http://nyc.pediacities.com/Resource/Neighborhood/Woodrow,0,Rossville-Woodrow,SI32,64959465.3375,085,18894,20763
+Woodside,Queens,4,http://nyc.pediacities.com/Resource/Neighborhood/Woodside,159,Woodside,QN63,28245728.0828,081,43846,45099
