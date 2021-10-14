@@ -103,7 +103,7 @@ outputPath = r'./data/uber-raw-data-sep14-new.csv'
 # add_neighborhood_to_uber_data(uberDataPath, geojsonPath, outputPath)
 # add_neighborhood_to_uber_csv_data(uberDataPath, geojsonPath, outputPath)
 
-filter_manhattan('./data/uber-raw-data-apr14.csv', './data/neighborhood-lookup.csv', './data/all-neighborhoods-data-apr14-new.csv')
+filter_manhattan('./data/uber-raw-data-apr14.csv', './data/neighborhood-lookup.csv', './data/all-neighborhoods-data-apr14-new-east.csv')
 
 # min_lon: -74.7733
 # max_lon: -72.0666
