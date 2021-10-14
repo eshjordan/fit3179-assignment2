@@ -1,0 +1,185 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": "container",
+    "title": "Distribution of Uber pickups per thousand people in New York City, between 01-30 April 2014",
+
+    "params": [{
+            "name": "groupBy",
+            "value": "l_borough",
+            "bind": {
+                "name": "Group By: ",
+                "input": "select",
+                "options": [
+                    "l_borough",
+                    "l_neighborhood"
+                ],
+                "labels": [
+                    "Borough",
+                    "Neighborhood"
+                ]
+            }
+        },
+
+        {
+            "name": "maxPickups",
+            "expr": "groupBy == 'l_borough' ? 255 : 3000"
+        },
+
+        {
+            "name": "minPickups",
+            "expr": "groupBy == 'l_borough' ? 0 : 0"
+        }
+    ],
+
+    "projection": {
+        "type": "conicEqualArea",
+        "parallels": [
+            41,
+            40
+        ],
+        "rotate": [
+            74.1,
+            0,
+            0
+        ]
+    },
+
+    "data": {
+        "name": "neighborhood-topo",
+        "url": "https://eshjordan.github.io/fit3179-assignment2/data/nyc-neighbourhoods.topojson",
+        "format": {
+            "type": "topojson",
+            "feature": "nyc-neighbourhoods"
+        }
+    },
+
+    "transform": [{
+            "lookup": "properties.neighborhood",
+            "from": {
+                "data": {
+                    "name": "uberdata",
+                    "url": "https://eshjordan.github.io/fit3179-assignment2/data/neighborhood-lookup.csv",
+                    "format": {
+                        "type": "csv"
+                    }
+                },
+                "key": "l_neighborhood",
+                "fields": [
+                    "l_pickups",
+                    "l_neighborhood",
+                    "l_borough",
+                    "l_pop_2010"
+                ]
+            }
+        },
+
+        {
+            "filter": "datum.l_neighborhood != null"
+        },
+
+        {
+            "joinaggregate": [{
+                "op": "sum",
+                "field": "l_pop_2010",
+                "as": "borough_population"
+            }],
+            "groupby": [
+                "l_borough"
+            ]
+        },
+
+        {
+            "joinaggregate": [{
+                "op": "sum",
+                "field": "l_pop_2010",
+                "as": "neighborhood_population"
+            }],
+            "groupby": [
+                "l_neighborhood"
+            ]
+        },
+
+        {
+            "joinaggregate": [{
+                "op": "sum",
+                "field": "l_pickups",
+                "as": "num_pickups_by_neighborhood"
+            }],
+            "groupby": [
+                "l_neighborhood"
+            ]
+        },
+
+        {
+            "joinaggregate": [{
+                "op": "sum",
+                "field": "l_pickups",
+                "as": "num_pickups_by_borough"
+            }],
+            "groupby": [
+                "l_borough"
+            ]
+        },
+
+        {
+            "calculate": "datum.num_pickups_by_neighborhood / (datum.neighborhood_population/1000)",
+            "as": "norm_pickups_neighborhood"
+        },
+
+        {
+            "calculate": "datum.num_pickups_by_borough / (datum.borough_population/1000)",
+            "as": "norm_pickups_borough"
+        },
+
+        {
+            "calculate": "groupBy == 'l_neighborhood' ? datum.norm_pickups_neighborhood : datum.norm_pickups_borough",
+            "as": "num_pickups"
+        }
+    ],
+    "layer": [{
+        "mark": "geoshape",
+        "encoding": {
+            "color": {
+                "field": "num_pickups",
+                "type": "quantitative",
+
+                "legend": {
+                    "title": "Number of pickups"
+                },
+
+                "scale": {
+                    "domain": [{
+                            "expr": "minPickups"
+                        },
+                        {
+                            "expr": "maxPickups"
+                        }
+                    ],
+                    "scheme": { "expr": "groupBy == 'l_neighborhood' ? 'reds' : 'blues'" },
+                    "type": "symlog"
+                }
+            },
+
+            "tooltip": [{
+                    "title": "Neighborhood",
+                    "field": "properties.neighborhood"
+                },
+                {
+                    "title": "Borough",
+                    "field": "properties.borough"
+                },
+                {
+                    "title": "Pickups per 1000 people (borough)",
+                    "field": "norm_pickups_borough",
+                    "format": ".2f"
+                },
+                {
+                    "title": "Pickups per 1000 people (neighborhood)",
+                    "field": "norm_pickups_neighborhood",
+                    "format": ".2f"
+                }
+            ]
+        }
+    }]
+}

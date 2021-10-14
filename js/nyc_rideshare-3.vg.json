@@ -1,0 +1,47 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": "container",
+    "title": "Distribution of Uber pickups per thousand people in Manhattan throughout the day, between 01-30 April 2014",
+
+    "data": {
+        "name": "densified-pickups",
+        "url": "data/densified-pickups.csv",
+        "format": {
+            "type": "csv"
+        }
+    },
+
+    "transform": [
+        {
+            "lookup": "d_neighborhood",
+            "from": {
+                "data":{
+                    "name": "lookup-data",
+                    "url": "data/neighborhood-lookup.csv",
+                    "format":{
+                        "type": "csv"
+                    }
+                },
+                "key": "l_neighborhood",
+                "fields": ["l_borough"]
+            }
+        }
+    ],
+
+    "layer": [{
+        "mark": "area",
+        "transform": [
+            {
+                "density": "d_hour",
+                "groupby": ["l_borough"],
+                "counts": true
+            }
+        ],
+        "encoding": {
+            "x": {"field": "value", "type": "quantitative", "title": "Body Mass (g)"},
+            "y": {"field": "density", "type": "quantitative", "stack": "zero"},
+            "color": {"field": "l_borough", "type": "nominal"}
+          }
+    }]
+}
