@@ -44,6 +44,9 @@ body {
     display: flex;
     flex-grow: 1;
     padding: 0.5%;
+}
+
+.row {
     background-color: $grid-item-color-overlay;
 }
 
