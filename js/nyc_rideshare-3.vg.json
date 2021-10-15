@@ -39,8 +39,8 @@
             }
         ],
         "encoding": {
-            "x": {"field": "value", "type": "quantitative", "title": "Body Mass (g)"},
-            "y": {"field": "density", "type": "quantitative", "stack": "zero"},
+            "x": {"field": "value", "type": "quantitative", "title": "Time of day"},
+            "y": {"field": "density", "type": "quantitative", "stack": "zero", "title": "Number of trips"},
             "color": {"field": "l_borough", "type": "nominal"}
           }
     }]
