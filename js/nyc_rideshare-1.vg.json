@@ -4,6 +4,20 @@
     "height": "container",
     "title": "Distribution of Uber pickups per thousand people in New York City, between 01-30 April 2014",
 
+    "background": "rgba(0, 0, 0, 0)",
+
+    "view": {
+        "stroke": "transparent"
+    },
+
+    "config": {
+        "font": "text-medium",
+        "title": {
+            "font": "text-medium",
+            "fontSize": 14.6666
+        }
+    },
+
     "params": [{
             "name": "groupBy",
             "value": "l_borough",
@@ -137,49 +151,49 @@
             "as": "num_pickups"
         }
     ],
-    "layer": [{
-        "mark": "geoshape",
-        "encoding": {
-            "color": {
-                "field": "num_pickups",
-                "type": "quantitative",
 
-                "legend": {
-                    "title": "Number of pickups"
-                },
+    "mark": "geoshape",
 
-                "scale": {
-                    "domain": [{
-                            "expr": "minPickups"
-                        },
-                        {
-                            "expr": "maxPickups"
-                        }
-                    ],
-                    "scheme": { "expr": "groupBy == 'l_neighborhood' ? 'reds' : 'blues'" },
-                    "type": "symlog"
-                }
+    "encoding": {
+        "color": {
+            "field": "num_pickups",
+            "type": "quantitative",
+
+            "legend": {
+                "title": "Number of pickups"
             },
 
-            "tooltip": [{
-                    "title": "Neighborhood",
-                    "field": "properties.neighborhood"
-                },
-                {
-                    "title": "Borough",
-                    "field": "properties.borough"
-                },
-                {
-                    "title": "Pickups per 1000 people (borough)",
-                    "field": "norm_pickups_borough",
-                    "format": ".2f"
-                },
-                {
-                    "title": "Pickups per 1000 people (neighborhood)",
-                    "field": "norm_pickups_neighborhood",
-                    "format": ".2f"
-                }
-            ]
-        }
-    }]
+            "scale": {
+                "domain": [{
+                        "expr": "minPickups"
+                    },
+                    {
+                        "expr": "maxPickups"
+                    }
+                ],
+                "scheme": { "expr": "groupBy == 'l_neighborhood' ? 'reds' : 'blues'" },
+                "type": "symlog"
+            }
+        },
+
+        "tooltip": [{
+                "title": "Neighborhood",
+                "field": "properties.neighborhood"
+            },
+            {
+                "title": "Borough",
+                "field": "properties.borough"
+            },
+            {
+                "title": "Pickups per 1000 people (borough)",
+                "field": "norm_pickups_borough",
+                "format": ".2f"
+            },
+            {
+                "title": "Pickups per 1000 people (neighborhood)",
+                "field": "norm_pickups_neighborhood",
+                "format": ".2f"
+            }
+        ]
+    }
 }

@@ -4,44 +4,114 @@
     "height": "container",
     "title": "Distribution of Uber pickups per thousand people in Manhattan throughout the day, between 01-30 April 2014",
 
+    "background": "rgba(0, 0, 0, 0)",
+
+    "view": {
+        "stroke": "transparent"
+    },
+
+    "config": {
+        "font": "text-medium",
+        "title": {
+            "font": "text-medium",
+            "fontSize": 14.6666
+        }
+    },
+
+    "params": [{
+        "name": "time_of_day",
+        "value": 9,
+        "bind": {
+            "element": "#time_of_day_external_input"
+        }
+    }],
+
     "data": {
-        "name": "densified-pickups",
-        "url": "data/densified-pickups.csv",
+        "name": "all-pickups",
+        "url": "https://eshjordan.github.io/fit3179-assignment2/data/all-neighborhoods-data-apr14-new.csv",
         "format": {
             "type": "csv"
         }
     },
 
-    "transform": [
-        {
-            "lookup": "d_neighborhood",
+    "transform": [{
+            "lookup": "u_neighborhood",
             "from": {
-                "data":{
+                "data": {
                     "name": "lookup-data",
-                    "url": "data/neighborhood-lookup.csv",
-                    "format":{
+                    "url": "https://eshjordan.github.io/fit3179-assignment2/data/neighborhood-lookup.csv",
+                    "format": {
                         "type": "csv"
                     }
                 },
                 "key": "l_neighborhood",
-                "fields": ["l_borough"]
+                "fields": ["l_borough", "l_pop_2010"]
             }
+        },
+
+        {
+            "joinaggregate": [{
+                "op": "sum",
+                "field": "l_pop_2010",
+                "as": "borough_population"
+            }],
+            "groupby": [
+                "l_borough"
+            ]
+        },
+
+        {
+            "calculate": "datum['u_hr_' + time_of_day]",
+            "as": "hour_count"
+        },
+
+        {
+            "aggregate": [{
+                "op": "sum",
+                "field": "hour_count",
+                "as": "num_pickups_by_borough"
+            }],
+
+            "groupby": [
+                "l_borough",
+                "borough_population"
+            ]
+        },
+
+        {
+            "calculate": "datum.num_pickups_by_borough / (datum.borough_population/1000)",
+            "as": "norm_pickups_by_borough"
         }
     ],
 
-    "layer": [{
-        "mark": "area",
-        "transform": [
-            {
-                "density": "d_hour",
-                "groupby": ["l_borough"],
-                "counts": true
+    "mark": "bar",
+
+    "encoding": {
+        "x": {
+            "field": "l_borough",
+            "type": "nominal",
+            "title": "Time of day",
+            "axis": {
+                "grid": false
             }
-        ],
-        "encoding": {
-            "x": {"field": "value", "type": "quantitative", "title": "Time of day"},
-            "y": {"field": "density", "type": "quantitative", "stack": "zero", "title": "Number of trips"},
-            "color": {"field": "l_borough", "type": "nominal"}
-          }
-    }]
+        },
+
+        "y": {
+            "field": "norm_pickups_by_borough",
+            "type": "quantitative",
+            "stack": "zero",
+            "title": "Number of trips",
+            "axis": {
+                "grid": false
+            },
+            "scale": {
+                "domain": [0, 25]
+            }
+        },
+
+        "color": {
+            "field": "l_borough",
+            "type": "nominal"
+        }
+    }
 }

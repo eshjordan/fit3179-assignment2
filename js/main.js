@@ -10,7 +10,7 @@ vegaEmbed('#visualisation-2', vega_lite_definition_2).then(result => {
     let internal_element = document.getElementsByName("selected_borough")[0];
     let external_element = document.getElementById("time_of_day_external_div");
 
-    internal_element.parentElement.insertAdjacentElement('afterend', external_element);
+    // internal_element.parentElement.insertAdjacentElement('afterend', external_element);
 
     let pickup_time = document.getElementById("time_of_day_external_input");
 
@@ -24,9 +24,12 @@ vegaEmbed('#visualisation-2', vega_lite_definition_2).then(result => {
     });
 
     setInterval(() => {
-        let currentValue = parseInt(pickup_time.value);
-        pickup_time.value = (currentValue + 1) % 24;
-        pickup_time.dispatchEvent(new Event('input'));
+        let checkBox = document.getElementById("time_of_day_external_checkbox");
+        if (checkBox.checked) {
+            let currentValue = parseInt(pickup_time.value);
+            pickup_time.value = (currentValue + 1) % 24;
+            pickup_time.dispatchEvent(new Event('input'));
+        }
     }, 1000)
 
 }).catch(console.error);

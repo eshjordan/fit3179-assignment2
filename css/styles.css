@@ -1,7 +1,25 @@
+@font-face {
+  font-family: "big-regular";
+  src: url("fonts/big-regular.woff2");
+}
+@font-face {
+  font-family: "big-medium";
+  src: url("fonts/big-medium.woff2");
+}
+@font-face {
+  font-family: "text-regular";
+  src: url("fonts/text-regular.woff2");
+}
+@font-face {
+  font-family: "text-medium";
+  src: url("fonts/text-medium.woff2");
+}
 html,
 body {
   margin: 0;
   padding: 0;
+  font-family: "text-regular", "Arial", "Helvetica", "sans-serif";
+  background-color: #ffffff;
 }
 
 /* use viewport-relative units to cover page fully */
@@ -26,54 +44,162 @@ body {
 .col {
   display: flex;
   flex-grow: 1;
-  padding: 0.5%;
-}
-
-.row {
-  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0;
+  margin: 1px;
 }
 
 .flex-container {
   flex-direction: column;
   padding: 0%;
-  background-color: #2196F3;
+  background-color: #f6f6f6;
   justify-items: stretch;
   align-items: stretch;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 .row {
   flex-direction: row;
   justify-items: stretch;
   align-items: center;
+  background-color: rgba(246, 246, 246, 0);
+  min-height: 10vh;
 }
 
 .col {
   flex-direction: column;
   justify-items: center;
   align-items: stretch;
+  background-color: rgba(246, 246, 246, 0);
+}
+
+.input-row,
+.input-col {
+  padding: 0;
+  margin: 0;
+}
+
+#left_div_row,
+#left_div_col,
+#mid_div_row,
+#mid_div_col,
+#right_div_row,
+#right_div_col,
+#selected_borough_text_div,
+#selected_borough_select_div,
+#cycle_text_div,
+#cycle_check_div,
+#time_of_day_text_div,
+#time_of_day_input_div,
+#time_of_day_value_div {
+  flex-grow: 0;
+  display: inline-block;
+  white-space: nowrap;
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+}
+
+#left_div_row,
+#left_div_col,
+#selected_borough_text_div,
+#selected_borough_select_div,
+#cycle_text_div {
+  align-items: stretch;
+  text-align: right;
+  justify-items: right;
+  justify-content: right;
+  justify-self: right;
+}
+
+#mid_div_row,
+#mid_div_col {
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  justify-self: center;
+}
+
+#right_div_row,
+#right_div_col #cycle_check_div,
+#time_of_day_text_div,
+#time_of_day_input_div,
+#time_of_day_value_div {
+  align-items: stretch;
+  text-align: left;
+  justify-items: left;
+  justify-content: left;
+  justify-self: left;
+}
+
+#time_of_day_external_text {
+  width: 2.5rem;
 }
 
 #visualisation-1,
 #visualisation-2,
 #visualisation-3 {
   display: inline;
+  font-family: "text-medium", "Arial", "Helvetica", "sans-serif";
   width: 300px;
   height: 500px;
   padding-left: 38px;
+}
+
+#visualisation-1 {
   padding-bottom: 3rem;
 }
 
+.vega-bindings {
+  font-family: "text-regular", "Arial", "Helvetica", "sans-serif";
+}
+
+.title,
+.title_box,
+.title_text,
+.title_logo {
+  display: flex;
+  flex-grow: 1;
+}
+
 .title {
+  flex-direction: row;
+  flex-basis: 0;
+  justify-items: stretch;
+  align-items: center;
+  width: 100%;
   text-align: center;
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
+  font-size: 28pt;
+  font-family: "big-medium", "Arial", "Helvetica", "sans-serif";
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+.title_box,
+.title_text,
+.title_logo {
+  flex-direction: column;
+  justify-items: center;
+  align-items: stretch;
+}
+
+.title_box,
+.title_logo {
+  flex-basis: 0;
+  text-align: center;
+  font-size: 25pt;
+  padding-left: 3%;
+}
+
+.title_box {
+  font-family: "text-medium", "Arial", "Helvetica", "sans-serif";
 }
 
 .intro {
   text-align: center;
   font-size: 1rem;
-  margin-bottom: 0.5rem;
 }
 
 .body-1,
@@ -82,12 +208,10 @@ body {
 .body-4 {
   text-align: center;
   font-size: 1rem;
-  margin-bottom: 0.5rem;
 }
 
 .conclusion {
   text-align: center;
   font-size: 1rem;
   font-weight: bold;
-  margin-bottom: 0.5rem;
 }

@@ -1,14 +1,42 @@
 // Imports
 @use "sass:math";
+@font-face {
+    font-family: 'big-regular';
+    src: url('fonts/big-regular.woff2');
+}
 
+@font-face {
+    font-family: 'big-medium';
+    src: url('fonts/big-medium.woff2');
+}
+
+@font-face {
+    font-family: 'text-regular';
+    src: url('fonts/text-regular.woff2');
+}
+
+@font-face {
+    font-family: 'text-medium';
+    src: url('fonts/text-medium.woff2');
+}
 
 // Variables
 $actions-button-padding: 38px;
 $vega-vis-width: 300px;
 $vega-vis-height: 500px;
 
-$grid-item-color-overlay: rgba(255, 255, 255, 0.5);
-$grid-container-bg-color: #2196F3;
+$title-bg-color : #000000;
+$page-bg-color : #ffffff;
+$grid-container-bg-color : #f6f6f6;
+
+$backup-font-families: "Arial", "Helvetica", "sans-serif";
+
+$title-text-font-families: "big-medium",$backup-font-families;
+$header-text-font-families: "text-medium",$backup-font-families;
+$body-text-font-families: "text-regular",$backup-font-families;
+
+$grid-row-color-overlay : rgba(246,246,246,0);
+$grid-col-color-overlay : rgba(246,246,246,0);
 
 
 // General styles, page-level
@@ -16,9 +44,13 @@ html,
 body {
     margin: 0;
     padding: 0;
+    font-family: $body-text-font-families;
+    background-color: $page-bg-color;
 }
 
+
 /* use viewport-relative units to cover page fully */
+
 body {
     min-height: 100vh;
     width: 100%;
@@ -32,7 +64,6 @@ body {
 #content {
     height: 100%;
     width: 100%;
-
     font-size: 11pt;
 }
 
@@ -43,11 +74,8 @@ body {
 .col {
     display: flex;
     flex-grow: 1;
-    padding: 0.5%;
-}
-
-.row {
-    background-color: $grid-item-color-overlay;
+    padding: 0;
+    margin: 1px;
 }
 
 .flex-container {
@@ -56,43 +84,153 @@ body {
     background-color: $grid-container-bg-color;
     justify-items: stretch;
     align-items: stretch;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 .row {
     flex-direction: row;
     justify-items: stretch;
     align-items: center;
+    background-color: $grid-row-color-overlay;
+    min-height: 10vh;
 }
 
 .col {
     flex-direction: column;
     justify-items: center;
     align-items: stretch;
+    background-color: $grid-col-color-overlay;
 }
 
+.input-row,
+.input-col {
+    padding: 0;
+    margin: 0;
+}
+
+#left_div_row,
+#left_div_col,
+#mid_div_row,
+#mid_div_col,
+#right_div_row,
+#right_div_col,
+#selected_borough_text_div,
+#selected_borough_select_div,
+#cycle_text_div,
+#cycle_check_div,
+#time_of_day_text_div,
+#time_of_day_input_div,
+#time_of_day_value_div {
+    flex-grow: 0;
+    display: inline-block;
+    white-space: nowrap;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+#left_div_row,
+#left_div_col,
+#selected_borough_text_div,
+#selected_borough_select_div,
+#cycle_text_div {
+    align-items: stretch;
+    text-align: right;
+    justify-items: right;
+    justify-content: right;
+    justify-self: right;
+}
+
+#mid_div_row,
+#mid_div_col {
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+#right_div_row,
+#right_div_col #cycle_check_div,
+#time_of_day_text_div,
+#time_of_day_input_div,
+#time_of_day_value_div {
+    align-items: stretch;
+    text-align: left;
+    justify-items: left;
+    justify-content: left;
+    justify-self: left;
+}
+
+#time_of_day_external_text {
+    width: 2.5rem;
+}
 
 // Map styling
 #visualisation-1,
 #visualisation-2,
 #visualisation-3 {
     display: inline;
+    font-family: $header-text-font-families;
     width: $vega-vis-width;
     height: $vega-vis-height;
     padding-left: $actions-button-padding;
+}
+
+#visualisation-1 {
     padding-bottom: 3rem;
 }
 
+.vega-bindings {
+    font-family: $body-text-font-families;
+}
+
+.title,
+.title_box,
+.title_text,
+.title_logo {
+    display: flex;
+    flex-grow: 1;
+}
+
 .title {
+    flex-direction: row;
+    flex-basis: 0;
+    justify-items: stretch;
+    align-items: center;
+    width: 100%;
     text-align: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
+    font-size: 28pt;
+    font-family: $title-text-font-families;
+    background-color: $title-bg-color;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.title_box,
+.title_text,
+.title_logo {
+    flex-direction: column;
+    justify-items: center;
+    align-items: stretch;
+}
+
+.title_box,
+.title_logo {
+    flex-basis: 0;
+    text-align: center;
+    font-size: 25pt;
+    padding-left: 3%;
+}
+
+.title_box {
+    font-family: $header-text-font-families;
 }
 
 .intro {
     text-align: center;
     font-size: 1rem;
-    margin-bottom: 0.5rem;
 }
 
 .body-1,
@@ -101,12 +239,10 @@ body {
 .body-4 {
     text-align: center;
     font-size: 1rem;
-    margin-bottom: 0.5rem;
 }
 
 .conclusion {
     text-align: center;
     font-size: 1rem;
     font-weight: bold;
-    margin-bottom: 0.5rem;
 }
