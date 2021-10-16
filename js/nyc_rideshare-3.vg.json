@@ -19,12 +19,21 @@
     },
 
     "params": [{
-        "name": "time_of_day",
-        "value": 9,
-        "bind": {
-            "element": "#time_of_day_external_input"
+            "name": "time_of_day",
+            "value": 9,
+            "bind": {
+                "element": "#time_of_day_external_input"
+            }
+        },
+
+        {
+            "name": "selected_borough",
+            "value": "All",
+            "bind": {
+                "element": "#selected_borough_external_input"
+            }
         }
-    }],
+    ],
 
     "data": {
         "name": "all-pickups",
@@ -50,6 +59,10 @@
         },
 
         {
+            "filter": "datum.l_borough == selected_borough || selected_borough == 'All'"
+        },
+
+        {
             "joinaggregate": [{
                 "op": "sum",
                 "field": "l_pop_2010",
@@ -66,21 +79,31 @@
         },
 
         {
-            "aggregate": [{
+            "joinaggregate": [{
                 "op": "sum",
                 "field": "hour_count",
-                "as": "num_pickups_by_borough"
+                "as": "num_pickups_by_neighborhood"
             }],
-
             "groupby": [
-                "l_borough",
-                "borough_population"
+                "u_neighborhood"
             ]
         },
 
         {
-            "calculate": "datum.num_pickups_by_borough / (datum.borough_population/1000)",
-            "as": "norm_pickups_by_borough"
+            "calculate": "datum.num_pickups_by_neighborhood / (datum.l_pop_2010/1000)",
+            "as": "norm_pickups_by_neighborhood"
+        },
+
+        {
+            "window": [{
+                "op": "rank",
+                "as": "rank"
+            }],
+            "sort": [{ "field": "norm_pickups_by_neighborhood", "order": "descending" }]
+        },
+
+        {
+            "filter": "datum.rank <= 5"
         }
     ],
 
@@ -88,7 +111,7 @@
 
     "encoding": {
         "x": {
-            "field": "l_borough",
+            "field": "u_neighborhood",
             "type": "nominal",
             "title": "Time of day",
             "axis": {
@@ -97,7 +120,7 @@
         },
 
         "y": {
-            "field": "norm_pickups_by_borough",
+            "field": "norm_pickups_by_neighborhood",
             "type": "quantitative",
             "stack": "zero",
             "title": "Number of trips",
@@ -105,12 +128,12 @@
                 "grid": false
             },
             "scale": {
-                "domain": [0, 25]
+                "domain": [0, 400]
             }
         },
 
         "color": {
-            "field": "l_borough",
+            "field": "u_neighborhood",
             "type": "nominal"
         }
     }
