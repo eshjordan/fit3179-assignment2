@@ -37,12 +37,7 @@
 
         {
             "name": "maxPickups",
-            "expr": "groupBy == 'l_borough' ? 255 : 3000"
-        },
-
-        {
-            "name": "minPickups",
-            "expr": "groupBy == 'l_borough' ? 0 : 0"
+            "expr": "groupBy == 'l_borough' ? 25500 : 300000"
         }
     ],
 
@@ -137,12 +132,12 @@
         },
 
         {
-            "calculate": "datum.num_pickups_by_neighborhood / (datum.neighborhood_population/1000)",
+            "calculate": "datum.num_pickups_by_neighborhood / (datum.neighborhood_population/100000)",
             "as": "norm_pickups_neighborhood"
         },
 
         {
-            "calculate": "datum.num_pickups_by_borough / (datum.borough_population/1000)",
+            "calculate": "datum.num_pickups_by_borough / (datum.borough_population/100000)",
             "as": "norm_pickups_borough"
         },
 
@@ -164,9 +159,8 @@
             },
 
             "scale": {
-                "domain": [{
-                        "expr": "minPickups"
-                    },
+                "domain": [
+                    0,
                     {
                         "expr": "maxPickups"
                     }
@@ -180,17 +174,20 @@
                 "title": "Neighborhood",
                 "field": "properties.neighborhood"
             },
+
             {
                 "title": "Borough",
                 "field": "properties.borough"
             },
+
             {
-                "title": "Pickups per 1000 people (borough)",
+                "title": "Pickups per 100000 people (borough)",
                 "field": "norm_pickups_borough",
                 "format": ".2f"
             },
+
             {
-                "title": "Pickups per 1000 people (neighborhood)",
+                "title": "Pickups per 100000 people (neighborhood)",
                 "field": "norm_pickups_neighborhood",
                 "format": ".2f"
             }

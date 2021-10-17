@@ -119,7 +119,7 @@
         },
 
         {
-            "calculate": "datum['u_hr_' + time_of_day] / (datum.l_pop_2010/1000)",
+            "calculate": "datum['u_hr_' + time_of_day] / (datum.l_pop_2010/100000)",
             "as": "norm_pickups_neighborhood"
         }
     ],
@@ -132,11 +132,11 @@
             "type": "quantitative",
 
             "legend": {
-                "title": "Pickups per 1000 people"
+                "title": "Pickups per 100000 people"
             },
 
             "scale": {
-                "domain": ["0", "400"],
+                "domain": ["0", "40000"],
                 "scheme": "reds",
                 "type": "symlog"
             }
@@ -151,7 +151,7 @@
                 "field": "properties.borough"
             },
             {
-                "title": "Pickups per 1000 people (neighborhood)",
+                "title": "Pickups per 100000 people (neighborhood)",
                 "field": "norm_pickups_neighborhood",
                 "format": ".2f"
             }

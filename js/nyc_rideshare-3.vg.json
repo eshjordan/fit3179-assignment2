@@ -90,7 +90,7 @@
         },
 
         {
-            "calculate": "datum.num_pickups_by_neighborhood / (datum.l_pop_2010/1000)",
+            "calculate": "parseInt(datum.num_pickups_by_neighborhood / (datum.l_pop_2010/100000))",
             "as": "norm_pickups_by_neighborhood"
         },
 
@@ -99,11 +99,15 @@
                 "op": "rank",
                 "as": "rank"
             }],
-            "sort": [{ "field": "norm_pickups_by_neighborhood", "order": "descending" }]
+            "sort": [
+                { "field": "norm_pickups_by_neighborhood", "order": "descending" },
+                { "field": "num_pickups_by_neighborhood", "order": "descending" },
+                { "field": "l_pop_2010", "order": "descending" }
+            ]
         },
 
         {
-            "filter": "datum.rank <= 5"
+            "filter": "parseInt(datum.rank) <= 5 && datum.norm_pickups_by_neighborhood > 0"
         }
     ],
 
@@ -116,7 +120,8 @@
             "title": "Time of day",
             "axis": {
                 "grid": false
-            }
+            },
+            "sort": "-y"
         },
 
         "y": {
@@ -128,13 +133,35 @@
                 "grid": false
             },
             "scale": {
-                "domain": [0, 400]
+                "domain": [
+                    0,
+                    {
+                        "expr": "(selected_borough == 'All' || selected_borough == 'Manhattan') ? 40000 : (selected_borough == 'Bronx' ? 1000 : (selected_borough == 'Brooklyn' ? 5000 : (selected_borough == 'Staten Island' ? 20 : 17000)))"
+                    }
+                ]
             }
         },
 
         "color": {
             "field": "u_neighborhood",
             "type": "nominal"
-        }
+        },
+
+        "tooltip": [{
+                "title": "Neighborhood",
+                "field": "u_neighborhood"
+            },
+
+            {
+                "title": "Borough",
+                "field": "l_borough"
+            },
+
+            {
+                "title": "Pickups per 100000 people (neighborhood)",
+                "field": "norm_pickups_by_neighborhood",
+                "format": ".2f"
+            }
+        ]
     }
 }
