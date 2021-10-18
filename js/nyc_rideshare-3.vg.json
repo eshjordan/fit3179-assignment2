@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": "container",
     "height": "container",
-    "title": "Propotion of Uber trips per 100,000 people per hour",
+    "title": "Top 5 busiest neighborhoods per hour",
 
     "background": "rgba(0, 0, 0, 0)",
 
@@ -90,7 +90,7 @@
         },
 
         {
-            "calculate": "parseInt(datum.u_neighborhood == 'John F. Kennedy International Airport' ? datum.num_pickups_by_neighborhood : (datum.num_pickups_by_neighborhood / (datum.l_pop_2010/100000)))",
+            "calculate": "parseInt((datum.u_neighborhood == 'John F. Kennedy International Airport' || datum.u_neighborhood == 'Great Kills Park' || datum.u_neighborhood == 'Ellis Island' || datum.u_neighborhood == 'Hoffman Island' || datum.u_neighborhood == 'Jamaica Bay' || datum.u_neighborhood == 'LaGuardia Airport' || datum.u_neighborhood == 'Pelham Islands' || datum.u_neighborhood == 'Port Ivory') ? datum.num_pickups_by_neighborhood : (datum.num_pickups_by_neighborhood / (datum.l_pop_2010/100000)))",
             "as": "norm_pickups_by_neighborhood"
         },
 

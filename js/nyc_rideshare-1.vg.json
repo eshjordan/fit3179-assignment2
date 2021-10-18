@@ -132,7 +132,7 @@
         },
 
         {
-            "calculate": "datum.l_neighborhood == 'John F. Kennedy International Airport' ? datum.num_pickups_by_neighborhood : (datum.num_pickups_by_neighborhood / (datum.neighborhood_population/100000))",
+            "calculate": "(datum.l_neighborhood == 'John F. Kennedy International Airport' || datum.l_neighborhood == 'Great Kills Park' || datum.l_neighborhood == 'Ellis Island' || datum.l_neighborhood == 'Hoffman Island' || datum.l_neighborhood == 'Jamaica Bay' || datum.l_neighborhood == 'LaGuardia Airport' || datum.l_neighborhood == 'Pelham Islands' || datum.l_neighborhood == 'Port Ivory') ? datum.num_pickups_by_neighborhood : (datum.num_pickups_by_neighborhood / (datum.neighborhood_population/100000))",
             "as": "norm_pickups_neighborhood"
         },
 
