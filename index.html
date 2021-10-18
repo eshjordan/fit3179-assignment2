@@ -9,7 +9,7 @@
     <!-- CSS file -->
     <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
 
-    <link rel="icon" type="image/ico" href="https://eshjordan.github.io/fit3179-assignment2/favicon.ico"/>
+    <link rel="icon" type="image/ico" href="https://eshjordan.github.io/fit3179-assignment2/favicon.ico" />
 
 </head>
 
@@ -24,22 +24,83 @@
 
         <div class="flex-container">
 
-            <div class="row intro">
-                <div class="col">
-                    Introduction goes here
+            <div class="row" style="min-height: 0;padding-left:2rem;padding-top:1rem;padding-bottom:0;">
+                <div class="col" style="min-height:0;padding:0;margin:0;">
+                    <p style="min-height:0;padding:0;margin:0;">
+                        <b style="font-weight: bold;text-align:left;font-size:20pt;">
+                            Uber in New York - A Moving City
+                        </b>
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;By Jordan Esh
+                    </p>
                 </div>
             </div>
 
-            <div class="row body-1">
-                <div class="col">
-                    Some text relating to the first map goes here
+            <div class="row">
+                <div class="col intro">
+                    <p>
+                        Uber is the world's leading ridesharing service, providing a cheaper and more user-friendly
+                        alternative to taxis. Every day, all around the world thousands of people use the service for
+                        their daily commutes. We picked New York City, one of the world's busiest cities, and well known
+                        for its taxis usage, as our case study, so with that in mind, let's look at how people are
+                        starting to use Uber.
+                        <br />
+                        <br />
+                        New York City is located in the North Eastern part of the United States of America, in the state
+                        of New York. It has a population of over 8.5 Million people, is the most densely populated major
+                        city in the US, and is split into five different metropolitan areas, known as Boroughs.
+                    </p>
                 </div>
+                <div class="col intro">
+                    <p>
+                        The five Boroughs of New York are:
+                    </p>
+                    <ul style="text-align: justify;">
+                        <li>The Bronx</li>
+                        <li>Brooklyn</li>
+                        <li>Manhattan</li>
+                        <li>Staten Island</li>
+                        <li>Queens</li>
+                    </ul>
+                    <p>
+                        Manhattan is the busiest, being the city's main financial hub, and Staten Island is the least,
+                        with a larger proportion of residential areas. Each of these Boroughs is further made up of
+                        different neighborhoods.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row" style="min-height: 0;padding-left:2rem;padding-top:1rem;padding-bottom:1rem;">
+                <div class="col">
+                    <b style="font-weight: bold;text-align:left;font-size:20pt;">Where are people going?</b>
+                </div>
+            </div>
+
+            <div class="row">
                 <div class="col vega-vis" id="visualisation-1"></div>
             </div>
 
-            <div class="row body-2">
+            <div class="row">
+                <div class="col body-1">
+                    <p>
+                        The most popular pickup locations are around the most dense parts of the city, around Brooklyn.
+                        Lots of people live there, and there's lots of stuff to do and see. I think that's where the
+                        stock exchange is.
+                    </p>
+                </div>
+
+                <div class="col body-2">
+                    <p>
+                        New York City has lots of people in it. Many go to Central Park, Manhattan, to exercise
+                        throughout the day. It's also right in the middle of Manhattan,
+                        and you can get to other places around it
+                    </p>
+                </div>
+            </div>
+
+            <div class="row" style="min-height: 0;padding-left:2rem;padding-top:1rem;padding-bottom:1rem;">
                 <div class="col">
-                    Some body text goes here
+                    <b style="font-weight: bold;text-align:left;font-size:20pt;">How does traffic flow?</b>
                 </div>
             </div>
 
@@ -69,7 +130,7 @@
                                         <option value="Bronx">Bronx</option>
                                         <option value="Brooklyn">Brooklyn</option>
                                         <option value="Manhattan">Manhattan</option>
-                                        <option value="Staten Island">Statten Island</option>
+                                        <option value="Staten Island">Staten Island</option>
                                         <option value="Queens">Queens</option>
                                     </select>
                                     &nbsp;&nbsp;&nbsp;&nbsp;
@@ -123,21 +184,35 @@
 
             </div>
 
-            <div class="row body-3">
-                <div class="col">
-                    Some body text goes here
+            <div class="row">
+                <div class="col body-3">
+                    <p>
+                        The flow of traffic fluctuates throughout the day, with large spikes in all Boroughs around the
+                        morning and afternoon peaks, around <b>9 AM</b> and <b>5 PM</b>.
+                        <br />
+                        <br />
+                        Queens and Brooklyn maintain a relatively high number of trips for longer into the evening, as
+                        people travel in and around to Entertainment areas.
+                    </p>
+                </div>
+                <div class="col body-4">
+                    John F. Kennedy International Airport has no residents, so the values for it in the above charts are
+                    simply the unnormalised number of trips at a given time.
                 </div>
             </div>
 
             <div class="row">
-                <div class="col body-4">
-                    Some body text goes here
-                </div>
-            </div>
-
-            <div class="row conclusion">
                 <div class="col">
-                    Wrapping it up here in the conclusion
+                    <p class="conclusion-body">
+                        <b style="font-weight: bold;">References</b>
+                        <br />
+                        This data was collected by the <a href="http://www.nyc.gov/html/tlc/html/home/home.shtml">NYC
+                            Taxi & Limousine Commission (TLC)</a>, and requested by the company <a
+                            href="https://fivethirtyeight.com/">FiveThirtyEight</a> for use in artiles they published by
+                        submitting a United States Freedom of Information Law request. The source of this data and more
+                        information is available here: <a
+                            href="https://github.com/fivethirtyeight/uber-tlc-foil-response">https://github.com/fivethirtyeight/uber-tlc-foil-response</a>
+                    </p>
                 </div>
             </div>
 

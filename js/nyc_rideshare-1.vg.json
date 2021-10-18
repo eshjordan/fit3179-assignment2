@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": "container",
     "height": "container",
-    "title": "Distribution of Uber pickups per thousand people in New York City, between 01-30 April 2014",
+    "title": "Distribution of Uber trips per 100,000 people in New York City, between 01-30 April 2014",
 
     "background": "rgba(0, 0, 0, 0)",
 
@@ -132,7 +132,7 @@
         },
 
         {
-            "calculate": "datum.num_pickups_by_neighborhood / (datum.neighborhood_population/100000)",
+            "calculate": "datum.l_neighborhood == 'John F. Kennedy International Airport' ? datum.num_pickups_by_neighborhood : (datum.num_pickups_by_neighborhood / (datum.neighborhood_population/100000))",
             "as": "norm_pickups_neighborhood"
         },
 
@@ -181,15 +181,15 @@
             },
 
             {
-                "title": "Pickups per 100000 people (borough)",
+                "title": "Trips per 100,000 people (borough)",
                 "field": "norm_pickups_borough",
-                "format": ".2f"
+                "format": ",.2f"
             },
 
             {
-                "title": "Pickups per 100000 people (neighborhood)",
+                "title": "Trips per 100,000 people (neighborhood)",
                 "field": "norm_pickups_neighborhood",
-                "format": ".2f"
+                "format": ",.2f"
             }
         ]
     }
